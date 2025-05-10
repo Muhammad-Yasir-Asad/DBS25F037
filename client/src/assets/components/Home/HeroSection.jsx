@@ -1,14 +1,20 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { Search, ArrowRight } from "lucide-react";
+import GigList from "../shared/GigList";
+import { SearchContext } from "../Context/SearchContext";
+import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
   const [currentSlide, setCurrentSlide] = useState(1);
+  const [searchInput, setSearchInput] = useState("");
+  const { fetchGigs } = useContext(SearchContext); // Use context
+  const navigate = useNavigate();
 
   const carouselData = [
     {
       id: 1,
       primaryColor: "#125867",
-      primaryImage: "images/fiza.jpeg",
+      primaryImage: "https://99designs-start-static.imgix.net/homepage/little-danube.jpg?auto=format&w=370&h=370&q=45&dpr=2",
       secondaryImages: [
         { url: "https://99designs-start-static.imgix.net/homepage/little-danube-packaging.png?auto=format&w=354&415&q=45&dpr=2", className: "absolute -bottom-10 -left-60 w-[330px] h-[380px] -rotate-6  z-20" },
         { url: "https://99designs-start-static.imgix.net/homepage/little-danube-logo.png?auto=format&w=216&115&q=60&dpr=2", className: "absolute -top-12 right-2 w-24 z-20" },
@@ -91,6 +97,19 @@ const HeroSection = () => {
 
   const currentSlideData = carouselData.find(item => item.id === currentSlide);
 
+  const handleSearch = () => {
+    if (searchInput.trim()) {
+      fetchGigs(searchInput);
+      navigate(`/search-results?query=${encodeURIComponent(searchInput)}`);
+    }
+  };
+
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter") handleSearch();
+  };
+
+
+
   return (
     <div className="hero-section  w-full flex flex-col lg:flex-row bg-gray-50">
       {/* Left Section - Keep your existing left side code */}
@@ -106,25 +125,28 @@ const HeroSection = () => {
         </p>
 
         {/* Search Bar */}
-        <div className="flex items-center w-full max-w-md px-4 py-3 bg-white border border-gray-300 rounded-full shadow-lg mb-6">
-          <Search className="w-5 h-5 ml-3 text-gray-500" />
+        <div className="flex items-center w-full max-w-xl px-4 py-3 bg-white border border-gray-300 rounded-full shadow-md mb-6">
+          <Search className="w-5 h-5 ml-3 text-gray-500 cursor-pointer" onClick={handleSearch} />
           <input
             type="text"
             placeholder="Search for any service..."
+            value={searchInput}
+            onChange={(e) => setSearchInput(e.target.value)}
+            onKeyDown={handleKeyPress}
             className="flex-1 px-3 py-2 text-gray-700 bg-transparent outline-none"
           />
-          <button className="px-4 py-3 text-white bg-black rounded-full">
+          <button className="px-4 py-3 text-white bg-black rounded-full" onClick={handleSearch}>
             <ArrowRight className="w-4 h-4" />
           </button>
         </div>
 
         <div className="flex flex-wrap items-center gap-2">
           <p className="font-medium text-black">Popular Skills:</p>
-          <button className="px-3 py-1 text-sm text-black bg-white border border-gray-400 rounded-full hover:bg-gray-100">Web Dev</button>
-          <button className="px-3 py-1 text-sm text-black bg-white border border-gray-400 rounded-full hover:bg-gray-100">Graphic Design</button>
-          <button className="px-3 py-1 text-sm text-black bg-white border border-gray-400 rounded-full hover:bg-gray-100">Database</button>
+          <button onClick={() => fetchGigs("Web Development")} className="px-3 py-1 text-sm text-black bg-white border border-gray-400 rounded-full hover:bg-gray-100">Web Dev</button>
+          <button onClick={() => fetchGigs("Graphic Design")} className="px-3 py-1 text-sm text-black bg-white border border-gray-400 rounded-full hover:bg-gray-100">Graphic Design</button>
+          <button onClick={() => fetchGigs("Database")} className="px-3 py-1 text-sm text-black bg-white border border-gray-400 rounded-full hover:bg-gray-100">Database</button>
         </div>
-        </div>
+      </div>
       </div>
 
       {/* Right Section - Carousel */}

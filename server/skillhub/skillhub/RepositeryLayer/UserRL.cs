@@ -8,19 +8,24 @@ using skillhub.Common_Utility;
 using skillhub.CommonLayer.Model.Users;
 using skillhub.Helpers;
 using skillhub.Interfaces.IRepositryLayer;
+using skillhub.ServiceLayer;
+
 
 namespace skillhub.RepositeryLayer
 {
-    public class UserRL : UserInterfaceRL
+    public class UserRL : UserInterfaceRL, IWalletRL
     {
         private readonly IConfiguration configuration;
         private readonly IDbConnectionFactory dbConnectionFactory;
+        private readonly IWalletRL walletRL;
 
         public UserRL(IConfiguration configuration, IDbConnectionFactory dbConnectionFactory)
         {
             this.configuration = configuration;
             this.dbConnectionFactory = dbConnectionFactory;
         }
+
+       
 
         public async Task<UserRegisterResponse> RegisterUser(User user)
         {
@@ -58,6 +63,8 @@ namespace skillhub.RepositeryLayer
 
                     response.isSuccess = status > 0;
                     response.message = status > 0 ? "Registration successful" : "Failed to register user";
+                    Wallet wallet = new Wallet(user.userID);
+                    MakeWallet(wallet);
                 }
             }
             catch (Exception ex)
@@ -156,7 +163,7 @@ namespace skillhub.RepositeryLayer
                 return false;
             }
         }
-
+       
         public async Task<bool> CheckUserNameExists(string userName)
         {
             await using var mySqlConnection = dbConnectionFactory.CreateConnection();
@@ -209,6 +216,13 @@ namespace skillhub.RepositeryLayer
         public Task<bool> AddPersonalInformation(User personalInformation)
         {
             throw new NotImplementedException();
+        }
+
+        public Task<bool> MakeWallet(Wallet wallet)
+        {
+            
+            return walletRL.MakeWallet(wallet);
+            
         }
     }
 

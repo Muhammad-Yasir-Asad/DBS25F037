@@ -2,29 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Select from 'react-select';
 import axios from 'axios';
 import { jwtDecode } from 'jwt-decode';
-
-const languageOptions = [
-  { value: 'en', label: 'English' },
-  { value: 'ur', label: 'Urdu' },
-  { value: 'fr', label: 'French' },
-  { value: 'es', label: 'Spanish' },
-  { value: 'de', label: 'German' },
-  { value: 'zh', label: 'Chinese' },
-  { value: 'ar', label: 'Arabic' },
-  { value: 'hi', label: 'Hindi' },
-  { value: 'ja', label: 'Japanese' },
-  { value: 'ru', label: 'Russian' },
-  { value: 'pt', label: 'Portuguese' },
-  { value: 'bn', label: 'Bengali' },
-  { value: 'pa', label: 'Punjabi' },
-  { value: 'id', label: 'Indonesian' },
-  { value: 'tr', label: 'Turkish' },
-  { value: 'it', label: 'Italian' },
-  { value: 'ko', label: 'Korean' },
-  { value: 'vi', label: 'Vietnamese' },
-  { value: 'fa', label: 'Persian' },
-  { value: 'sw', label: 'Swahili' },
-];
+import { useNavigate } from 'react-router-dom';
 
 const countryOptions = [
   { value: 'PK', label: 'Pakistan' },
@@ -56,7 +34,6 @@ const PersonalInfoForm = () => {
     phone: '',
     country: null,
     description: '',
-    languages: [],
     profilePicture: null,
   });
 
@@ -67,6 +44,7 @@ const PersonalInfoForm = () => {
   const [submitError, setSubmitError] = useState(null);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [userId, setUserId] = useState(null);
+  const navigate = useNavigate();
 
   // Get user ID from token when component mounts
   useEffect(() => {
@@ -114,9 +92,7 @@ const PersonalInfoForm = () => {
     setFormData({ ...formData, country: selectedOption });
   };
 
-  const handleLanguageChange = (selectedOptions) => {
-    setFormData({ ...formData, languages: selectedOptions });
-  };
+
 
   const handleFileChange = (e) => {
     const file = e.target.files[0];
@@ -159,7 +135,6 @@ const PersonalInfoForm = () => {
       formDataToSend.append('PhoneNumber', formData.phone);
       formDataToSend.append('CountryCode', formData.country);
       formDataToSend.append('Description', formData.description);
-      formDataToSend.append(`Languages`, formData.languages);
     
 
       if (formData.profilePicture) {
@@ -181,6 +156,7 @@ const PersonalInfoForm = () => {
       if (response.data.success) {
         setSubmitSuccess(true);
         resetForm();
+        navigate("/professional-information");
       } else {
         throw new Error(response.data.message || 'Request failed');
       }
@@ -335,21 +311,6 @@ const PersonalInfoForm = () => {
               Description must be at least 250 characters.
             </p>
           )}
-        </div>
-
-        {/* Languages */}
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">
-            Languages <span className="text-red-500">*</span>
-          </label>
-          <Select
-            name="languages"
-            options={languageOptions}
-            value={formData.languages}
-            isMulti
-            onChange={handleLanguageChange}
-            placeholder="Select languages you speak"
-          />
         </div>
         
         {/* Submit Button */}

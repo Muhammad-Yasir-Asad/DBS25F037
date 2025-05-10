@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react';
+// src/shared/ModeSwitch.jsx
+import { useState, useEffect } from 'react';
 import { getMode, toggleMode } from '../utils/mode';
 import { useNavigate } from 'react-router-dom';
 
-export default function ModeSwitch() {
+export default function ModeSwitch({ children }) {
   const [mode, setModeState] = useState(getMode());
   const navigate = useNavigate();
 
   useEffect(() => {
-    // keep state in sync if another tab changes it
     const onStorage = () => setModeState(getMode());
     window.addEventListener('storage', onStorage);
     return () => window.removeEventListener('storage', onStorage);
@@ -17,17 +17,15 @@ export default function ModeSwitch() {
     const newMode = toggleMode();
     setModeState(newMode);
     if (newMode === 'Selling') {
-        navigate('/freelancer');
-      } else {
-        navigate('/client');
-      }
+      navigate('/freelancer');
+    } else {
+      navigate('/client');
+    }
   };
 
   return (
-    <button
-      onClick={handleClick}
-    >
-      Switch to {mode === 'Selling' ? 'Buying' : 'Selling'}
-    </button>
+    <div onClick={handleClick}>
+      {typeof children === 'function' ? children(mode) : children}
+    </div>
   );
 }

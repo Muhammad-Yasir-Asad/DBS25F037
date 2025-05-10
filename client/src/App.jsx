@@ -6,23 +6,47 @@ import AdminDashboard from './assets/components/pages/Admin';
 import Client from './assets/components/pages/Client';
 import Admin from './assets/components/pages/Admin'
 import ProtectedRoute from './assets/components/ProtectedRoute';
+import StartSellingPage from './assets/components/pages/StartSellingPage';
+import SearchResults from './assets/components/shared/SearchResults'
+import SearchResultResponse from './assets/components/shared/SearchResultResponse';
+import GigList from './assets/components/shared/GigList';
+
 
 export default function App() {
   return (
     <BrowserRouter>
+
       <Routes>
         {/* Public landing / login page */}
         <Route path="/" element={<Home />} />
 
         {/* Freelancer dashboard—only role==="Freelancer" */}
         <Route
-          path="/freelancer"
+          path="/freelancer/*"
           element={
             <ProtectedRoute requiredRole="User">
               <Freelancer />
             </ProtectedRoute>
           }
         />
+
+<Route path="/search-response" element={<SearchResultResponse />} />
+<Route path="/search" element={<SearchResults />} />
+
+        <Route 
+          path='/start-selling'
+          element={
+            <StartSellingPage />
+          }
+          />
+
+          <Route
+           path='/search-results'
+           element={
+            <GigList />
+           }
+           />
+
 
         {/* Client dashboard—only role==="Client" */}
         <Route

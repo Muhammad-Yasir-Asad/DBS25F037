@@ -96,6 +96,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "skillhub.Controllers.MessagesController",
+    "Method": "SendMessage",
+    "RelativePath": "api/Messages/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "skillhub.CommonLayer.Model.Messages.MessageRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "skillhub.Controllers.VehiclesController",
     "Method": "StartEngines",
     "RelativePath": "api/Vehicles/start-engines",
@@ -103,6 +119,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.walletController",
+    "Method": "MakeWallet",
+    "RelativePath": "api/wallet/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "skillhub.CommonLayer.Model.Users.WalletRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   }
 ]

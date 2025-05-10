@@ -3,20 +3,104 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\freelancer\\gig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\freelancer\\gig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\repositerylayer\\userrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\repositerylayer\\userrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\freelancer\\gigrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\freelancer\\gigrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\repositerylayer\\walletrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\repositerylayer\\walletrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\interfaces\\irepositrylayer\\iwalletrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\interfaces\\irepositrylayer\\iwalletrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\repositerylayer\\freelancerrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\repositerylayer\\freelancerrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\servicelayer\\usersl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\servicelayer\\usersl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\helpers\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\helpers\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\users\\walletrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\users\\walletrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\messages\\messagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\messages\\messagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\users\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\users\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\users\\bike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\users\\bike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\users\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\users\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\users\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\users\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\users\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\users\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\users\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\users\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\users\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\users\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\interfaces\\iservicelayer\\userinterfacesl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\interfaces\\iservicelayer\\userinterfacesl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\interfaces\\iuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\interfaces\\iuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\freelancer\\freelancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\freelancer\\freelancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\common utility\\sqlqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\common utility\\sqlqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\sqlqueries.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\sqlqueries.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\freelancer\\gig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\freelancer\\gig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\freelancer\\gigrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\freelancer\\gigrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\interfaces\\irepositrylayer\\ifreelancerrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,52 +115,12 @@
       "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\users\\personalinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\users\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\users\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\users\\bike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\users\\bike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\users\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\users\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\users\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\users\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\sqlqueries.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\sqlqueries.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\servicelayer\\usersl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\servicelayer\\usersl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\servicelayer\\freelancersl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\servicelayer\\freelancersl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\repositerylayer\\userrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\repositerylayer\\userrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\repositerylayer\\freelancerrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\repositerylayer\\freelancerrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\interfaces\\irepositrylayer\\userinterfacerl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\interfaces\\irepositrylayer\\userinterfacerl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\common utility\\sqlqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\common utility\\sqlqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\freelancer\\freelancerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,32 +139,12 @@
       "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\repositerylayer\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\interfaces\\iuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\interfaces\\iuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\helpers\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\helpers\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\interfaces\\iservicelayer\\userinterfacesl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\interfaces\\iservicelayer\\userinterfacesl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\users\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\users\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\users\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|solutionrelative:skillhub\\commonlayer\\model\\users\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E45C4873-9FB4-4CD4-A8C7-3A7FE16D6288}|skillhub\\skillhub.csproj|c:\\users\\hp\\onedrive\\documents\\smemster_2\\database\\finalproject\\server\\skillhub\\skillhub\\commonlayer\\model\\users\\userregisterresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -162,17 +186,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
               "Title": "UserSL.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\ServiceLayer\\UserSL.cs",
               "RelativeDocumentMoniker": "skillhub\\ServiceLayer\\UserSL.cs",
               "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\ServiceLayer\\UserSL.cs",
               "RelativeToolTip": "skillhub\\ServiceLayer\\UserSL.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAkwHUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAswHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T11:51:00.188Z",
               "IsPinned": true,
@@ -180,13 +212,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Users\\User.cs",
               "RelativeDocumentMoniker": "skillhub\\CommonLayer\\Model\\Users\\User.cs",
               "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Users\\User.cs",
               "RelativeToolTip": "skillhub\\CommonLayer\\Model\\Users\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T22:19:34.163Z",
               "IsPinned": true,
@@ -194,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 3,
               "Title": "FreelancerRL.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\RepositeryLayer\\FreelancerRL.cs",
               "RelativeDocumentMoniker": "skillhub\\RepositeryLayer\\FreelancerRL.cs",
@@ -208,13 +240,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
               "Title": "SqlQueries.xml",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\SqlQueries.xml",
               "RelativeDocumentMoniker": "skillhub\\SqlQueries.xml",
               "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\SqlQueries.xml",
               "RelativeToolTip": "skillhub\\SqlQueries.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
               "WhenOpened": "2025-04-26T17:58:50.247Z",
               "IsPinned": true,
@@ -222,7 +254,101 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IWalletRL.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Interfaces\\IRepositryLayer\\IWalletRL.cs",
+              "RelativeDocumentMoniker": "skillhub\\Interfaces\\IRepositryLayer\\IWalletRL.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Interfaces\\IRepositryLayer\\IWalletRL.cs",
+              "RelativeToolTip": "skillhub\\Interfaces\\IRepositryLayer\\IWalletRL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T12:20:15.033Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "WalletRL.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\RepositeryLayer\\WalletRL.cs",
+              "RelativeDocumentMoniker": "skillhub\\RepositeryLayer\\WalletRL.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\RepositeryLayer\\WalletRL.cs",
+              "RelativeToolTip": "skillhub\\RepositeryLayer\\WalletRL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T12:16:12.965Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRL.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\RepositeryLayer\\UserRL.cs",
+              "RelativeDocumentMoniker": "skillhub\\RepositeryLayer\\UserRL.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\RepositeryLayer\\UserRL.cs",
+              "RelativeToolTip": "skillhub\\RepositeryLayer\\UserRL.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAgwN8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T11:53:05.926Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WalletRequest.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Users\\WalletRequest.cs",
+              "RelativeDocumentMoniker": "skillhub\\CommonLayer\\Model\\Users\\WalletRequest.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Users\\WalletRequest.cs",
+              "RelativeToolTip": "skillhub\\CommonLayer\\Model\\Users\\WalletRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:55:59.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "walletController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Controllers\\walletController.cs",
+              "RelativeDocumentMoniker": "skillhub\\Controllers\\walletController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Controllers\\walletController.cs",
+              "RelativeToolTip": "skillhub\\Controllers\\walletController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:54:20.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MessageRequest.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Messages\\MessageRequest.cs",
+              "RelativeDocumentMoniker": "skillhub\\CommonLayer\\Model\\Messages\\MessageRequest.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Messages\\MessageRequest.cs",
+              "RelativeToolTip": "skillhub\\CommonLayer\\Model\\Messages\\MessageRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:50:15.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Wallet.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Users\\Wallet.cs",
+              "RelativeDocumentMoniker": "skillhub\\CommonLayer\\Model\\Users\\Wallet.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Users\\Wallet.cs",
+              "RelativeToolTip": "skillhub\\CommonLayer\\Model\\Users\\Wallet.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:49:53.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "GigRequest.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Freelancer\\GigRequest.cs",
               "RelativeDocumentMoniker": "skillhub\\CommonLayer\\Model\\Freelancer\\GigRequest.cs",
@@ -230,12 +356,11 @@
               "RelativeToolTip": "skillhub\\CommonLayer\\Model\\Freelancer\\GigRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T17:35:21.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T17:35:21.388Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 23,
               "Title": "Gig.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Freelancer\\Gig.cs",
               "RelativeDocumentMoniker": "skillhub\\CommonLayer\\Model\\Freelancer\\Gig.cs",
@@ -247,29 +372,21 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Program.cs",
               "RelativeDocumentMoniker": "skillhub\\Program.cs",
               "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Program.cs",
               "RelativeToolTip": "skillhub\\Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAEwDsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAEwCAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T12:23:23.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 25,
               "Title": "IFreelancerRL.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Interfaces\\IRepositryLayer\\IFreelancerRL.cs",
               "RelativeDocumentMoniker": "skillhub\\Interfaces\\IRepositryLayer\\IFreelancerRL.cs",
@@ -277,12 +394,11 @@
               "RelativeToolTip": "skillhub\\Interfaces\\IRepositryLayer\\IFreelancerRL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T11:39:22.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T11:39:22.887Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 28,
               "Title": "FreelancerSL.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\ServiceLayer\\FreelancerSL.cs",
               "RelativeDocumentMoniker": "skillhub\\ServiceLayer\\FreelancerSL.cs",
@@ -290,12 +406,11 @@
               "RelativeToolTip": "skillhub\\ServiceLayer\\FreelancerSL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T11:26:43.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T11:26:43.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 26,
               "Title": "IFreelancerSL.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Interfaces\\IServiceLayer\\IFreelancerSL.cs",
               "RelativeDocumentMoniker": "skillhub\\Interfaces\\IServiceLayer\\IFreelancerSL.cs",
@@ -303,12 +418,11 @@
               "RelativeToolTip": "skillhub\\Interfaces\\IServiceLayer\\IFreelancerSL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T11:11:18.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T11:11:18.842Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "FreelancerRequest.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Freelancer\\FreelancerRequest.cs",
               "RelativeDocumentMoniker": "skillhub\\CommonLayer\\Model\\Freelancer\\FreelancerRequest.cs",
@@ -316,25 +430,24 @@
               "RelativeToolTip": "skillhub\\CommonLayer\\Model\\Freelancer\\FreelancerRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T11:07:54.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T11:07:54.386Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 20,
               "Title": "Freelancer.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Freelancer\\Freelancer.cs",
               "RelativeDocumentMoniker": "skillhub\\CommonLayer\\Model\\Freelancer\\Freelancer.cs",
               "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Freelancer\\Freelancer.cs",
               "RelativeToolTip": "skillhub\\CommonLayer\\Model\\Freelancer\\Freelancer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T11:00:53.166Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": "freelancerController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Controllers\\freelancerController.cs",
               "RelativeDocumentMoniker": "skillhub\\Controllers\\freelancerController.cs",
@@ -342,12 +455,11 @@
               "RelativeToolTip": "skillhub\\Controllers\\freelancerController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwBQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T10:59:59.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T10:59:59.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 27,
               "Title": "PersonalInformation.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Users\\PersonalInformation.cs",
               "RelativeDocumentMoniker": "skillhub\\CommonLayer\\Model\\Users\\PersonalInformation.cs",
@@ -355,12 +467,11 @@
               "RelativeToolTip": "skillhub\\CommonLayer\\Model\\Users\\PersonalInformation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T06:34:16.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T06:34:16.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 16,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Users\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "skillhub\\CommonLayer\\Model\\Users\\RegisterRequest.cs",
@@ -373,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "VehiclesController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Controllers\\VehiclesController.cs",
               "RelativeDocumentMoniker": "skillhub\\Controllers\\VehiclesController.cs",
@@ -381,12 +492,11 @@
               "RelativeToolTip": "skillhub\\Controllers\\VehiclesController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAmwBAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T03:36:09.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T03:36:09.94Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "VehicleService.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\ServiceLayer\\VehicleService.cs",
               "RelativeDocumentMoniker": "skillhub\\ServiceLayer\\VehicleService.cs",
@@ -394,12 +504,11 @@
               "RelativeToolTip": "skillhub\\ServiceLayer\\VehicleService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T03:35:33.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T03:35:33.432Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 33,
               "Title": "IVehicleRepository.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\RepositeryLayer\\IVehicleRepository.cs",
               "RelativeDocumentMoniker": "skillhub\\RepositeryLayer\\IVehicleRepository.cs",
@@ -407,12 +516,11 @@
               "RelativeToolTip": "skillhub\\RepositeryLayer\\IVehicleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T03:34:54.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T03:34:54.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 31,
               "Title": "IVehicleService.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\ServiceLayer\\IVehicleService.cs",
               "RelativeDocumentMoniker": "skillhub\\ServiceLayer\\IVehicleService.cs",
@@ -420,12 +528,11 @@
               "RelativeToolTip": "skillhub\\ServiceLayer\\IVehicleService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T03:34:18.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T03:34:18.17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 38,
               "Title": "VehicleRepository.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\RepositeryLayer\\VehicleRepository.cs",
               "RelativeDocumentMoniker": "skillhub\\RepositeryLayer\\VehicleRepository.cs",
@@ -433,12 +540,11 @@
               "RelativeToolTip": "skillhub\\RepositeryLayer\\VehicleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T03:33:07.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T03:33:07.08Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "Truck.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Users\\Truck.cs",
               "RelativeDocumentMoniker": "skillhub\\CommonLayer\\Model\\Users\\Truck.cs",
@@ -451,7 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Bike.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Users\\Bike.cs",
               "RelativeDocumentMoniker": "skillhub\\CommonLayer\\Model\\Users\\Bike.cs",
@@ -464,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Users\\Car.cs",
               "RelativeDocumentMoniker": "skillhub\\CommonLayer\\Model\\Users\\Car.cs",
@@ -477,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 14,
               "Title": "Vehicle.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Users\\Vehicle.cs",
               "RelativeDocumentMoniker": "skillhub\\CommonLayer\\Model\\Users\\Vehicle.cs",
@@ -490,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 19,
               "Title": "IUserProfile.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Interfaces\\IUserProfile.cs",
               "RelativeDocumentMoniker": "skillhub\\Interfaces\\IUserProfile.cs",
@@ -503,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "UserLogin.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Users\\UserLogin.cs",
               "RelativeDocumentMoniker": "skillhub\\CommonLayer\\Model\\Users\\UserLogin.cs",
@@ -516,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 6,
               "Title": "DbConnectionFactory.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Helpers\\DbConnectionFactory.cs",
               "RelativeDocumentMoniker": "skillhub\\Helpers\\DbConnectionFactory.cs",
@@ -529,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 40,
               "Title": "IDbConnectionFactory.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Helpers\\IDbConnectionFactory.cs",
               "RelativeDocumentMoniker": "skillhub\\Helpers\\IDbConnectionFactory.cs",
@@ -541,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 41,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Common Utility\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "skillhub\\Common Utility\\PasswordHasher.cs",
@@ -553,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "UserRegisterResponse.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\CommonLayer\\Model\\Users\\UserRegisterResponse.cs",
               "RelativeDocumentMoniker": "skillhub\\CommonLayer\\Model\\Users\\UserRegisterResponse.cs",
@@ -561,12 +667,11 @@
               "RelativeToolTip": "skillhub\\CommonLayer\\Model\\Users\\UserRegisterResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T22:20:22.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T22:20:22.702Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 39,
               "Title": "JwtHelper.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Common Utility\\JwtHelper.cs",
               "RelativeDocumentMoniker": "skillhub\\Common Utility\\JwtHelper.cs",
@@ -578,33 +683,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "SqlQueries.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Common Utility\\SqlQueries.cs",
               "RelativeDocumentMoniker": "skillhub\\Common Utility\\SqlQueries.cs",
               "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Common Utility\\SqlQueries.cs",
               "RelativeToolTip": "skillhub\\Common Utility\\SqlQueries.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwCsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwD8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T17:57:31.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserRL.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\RepositeryLayer\\UserRL.cs",
-              "RelativeDocumentMoniker": "skillhub\\RepositeryLayer\\UserRL.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\RepositeryLayer\\UserRL.cs",
-              "RelativeToolTip": "skillhub\\RepositeryLayer\\UserRL.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAqwA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T11:53:05.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 29,
               "Title": "UserInterfaceRL.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Interfaces\\IRepositryLayer\\UserInterfaceRL.cs",
               "RelativeDocumentMoniker": "skillhub\\Interfaces\\IRepositryLayer\\UserInterfaceRL.cs",
@@ -612,12 +704,11 @@
               "RelativeToolTip": "skillhub\\Interfaces\\IRepositryLayer\\UserInterfaceRL.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwA4AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T11:52:54.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T11:52:54.134Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 18,
               "Title": "UserInterfaceSL.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Interfaces\\IServiceLayer\\UserInterfaceSL.cs",
               "RelativeDocumentMoniker": "skillhub\\Interfaces\\IServiceLayer\\UserInterfaceSL.cs",
@@ -630,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 34,
               "Title": "authController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\Controllers\\authController.cs",
               "RelativeDocumentMoniker": "skillhub\\Controllers\\authController.cs",
@@ -638,12 +729,11 @@
               "RelativeToolTip": "skillhub\\Controllers\\authController.cs",
               "ViewState": "AgIAAFUAAAAAAAAAAAAuwGEAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T11:48:38.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T11:48:38.685Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 43,
               "Title": "skillhub.csproj",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\skillhub.csproj",
               "RelativeDocumentMoniker": "skillhub\\skillhub.csproj",
@@ -656,7 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 42,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\appsettings.json",
               "RelativeDocumentMoniker": "skillhub\\appsettings.json",

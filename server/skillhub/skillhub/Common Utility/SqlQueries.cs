@@ -48,5 +48,19 @@ namespace skillhub.Common_Utilities
                 return configuration["FreelancerInformation"];
             }
         }
+        public static string sendmessage
+        {
+            get
+            {
+                return configuration["SendMessage"];
+            }
+        }
+        public static string makeWallet
+        {
+            get
+            {
+                return configuration["MakeWallet"];
+            }
+        }
     }
 }

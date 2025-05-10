@@ -1,3 +1,45 @@
+
+
+.gig-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.sm\:grid-cols-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.md\:grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.lg\:grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.loading,
+.no-results {
+  text-align: center;
+  padding: 20px;
+}
+
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;

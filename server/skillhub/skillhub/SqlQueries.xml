@@ -25,6 +25,15 @@
 			INSERT INTO `freelancerprofile` (userid ,gender, education, language) VALUES(@userID, @gender, @education, @language);
 		]]>
 	</FreelancerInformation>
-	
+	<SendMessage>
+		<![CDATA[
+		Insert into message(senderID,receiverid,Messagetext) values (@senderid,@receiverid,@messagetext); 
+	]]>
+	</SendMessage>
+	<MakeWallet>
+		<![CDATA[
+	Insert into wallet(userID,coinbalance,Status) values (@userID,@coinbalance,@status); 
+	]]>
+	</MakeWallet>
 	
 </Queries>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Menu, Search, X, Home, Briefcase, DollarSign, MessageSquare, Bell, User } from "lucide-react";
+import { Menu, Search, X, Briefcase, Home, MessageSquare, Bell, User } from "lucide-react";
 import AuthForm from "../Home/AuthForm";
 import ModeSwitch from "../shared/ModeSwitch";
 
@@ -23,20 +23,18 @@ const FreelancerNavbar = () => {
 
           <ul className="hidden md:flex space-x-6 font-medium text-gray-700">
             <li className="hover:text-green-600 cursor-pointer flex items-center gap-1">
-              <Home size={16} /> Dashboard
+              <Home size={16} /> Home
             </li>
             <li className="hover:text-green-600 cursor-pointer flex items-center gap-1">
-              <Briefcase size={16} /> My Projects
-            </li>
-            <li className="hover:text-green-600 cursor-pointer flex items-center gap-1">
-              <DollarSign size={16} /> Earnings
+              <Briefcase size={16} /> Find Freelancers
             </li>
             <li className="hover:text-green-600 cursor-pointer flex items-center gap-1">
               <MessageSquare size={16} /> Messages
             </li>
             <li className="hover:text-green-600 cursor-pointer flex items-center gap-1">
-                    <ModeSwitch size={16} />
+              <ModeSwitch size={16} />
             </li>
+
           </ul>
 
           <div className="hidden md:flex items-center space-x-4">
@@ -48,7 +46,7 @@ const FreelancerNavbar = () => {
               <div className="h-8 w-8 rounded-full bg-gray-200 flex items-center justify-center">
                 <User size={16} />
               </div>
-              <span className="text-sm">Freelancer Profile</span>
+              <span className="text-sm">Client Dashboard</span>
             </div>
           </div>
 
@@ -63,18 +61,14 @@ const FreelancerNavbar = () => {
           <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-lg py-4 px-4">
             <ul className="space-y-4 font-medium text-gray-700">
               <li className="hover:text-green-600 cursor-pointer flex items-center gap-2">
-                <Home size={16} /> Dashboard
+                <Home size={16} /> Home
               </li>
               <li className="hover:text-green-600 cursor-pointer flex items-center gap-2">
-                <Briefcase size={16} /> My Projects
-              </li>
-              <li className="hover:text-green-600 cursor-pointer flex items-center gap-2">
-                <DollarSign size={16} /> Earnings
+                <Briefcase size={16} /> Find Freelancers
               </li>
               <li className="hover:text-green-600 cursor-pointer flex items-center gap-2">
                 <MessageSquare size={16} /> Messages
               </li>
-              
             </ul>
 
             <div className="mt-4 pt-4 border-t border-gray-200">
@@ -87,7 +81,7 @@ const FreelancerNavbar = () => {
                   <div className="h-8 w-8 rounded-full bg-gray-200 flex items-center justify-center">
                     <User size={16} />
                   </div>
-                  <span className="text-sm">Freelancer Profile</span>
+                  <span className="text-sm">Client Dashboard</span>
                 </div>
               </div>
             </div>

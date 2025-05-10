@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using skillhub.CommonLayer.Model.Users;
 
 public class User
 {
@@ -16,7 +17,7 @@ public class User
     public string bio { get; private set; }
     public string phone { get; private set; }
     public string country { get; private set; }
-
+    public Wallet Wallet { get; private set; }
     public string language { get; private set; }
     public string userName { get; private set; }
 
@@ -30,9 +31,13 @@ public class User
         this.roleID = roleID;
         this.isActive = true;
         this.joinDate = DateTime.UtcNow.ToString("yyyy-MM-dd");
-        this.current_mode = "Default"; 
+        this.current_mode = "Default";
+        this.Wallet = new Wallet(this.userID);
     }
+    public User()
+    {
 
+    }
     public User(string email, string passwordHash)
     {
         this.email = email; 
