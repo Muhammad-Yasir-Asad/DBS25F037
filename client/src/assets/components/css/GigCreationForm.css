@@ -1,0 +1,114 @@
+.gig-form-container {
+    margin: 40px auto;
+    max-width: 1000px;
+    border: 1px solid #eee;
+    padding: 30px;
+    background: #fff;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .gig-form {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-section {
+    flex: 3;
+    margin-right: 30px;
+  }
+  
+  .right-section {
+    flex: 1;
+  }
+  
+  .form-group {
+    margin-bottom: 25px;
+  }
+  
+  .title-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .prefix {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  input[type='text'],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .char-count {
+    text-align: right;
+    font-size: 12px;
+    color: gray;
+    margin-top: 5px;
+  }
+  
+  .tag-input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .tag {
+    background: #e0e0e0;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .tag button {
+    background: none;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .tag-note {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .note {
+    background: #fff5f5;
+    padding: 10px;
+    border-left: 3px solid #f00;
+    font-size: 13px;
+    color: #444;
+  }
+  
+  .info-box {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 6px;
+  }
+  
+  .graphic-placeholder {
+    margin-top: 20px;
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  .footer {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  .save-btn {
+    background: black;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
