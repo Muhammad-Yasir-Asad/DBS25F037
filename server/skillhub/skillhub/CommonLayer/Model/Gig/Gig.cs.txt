@@ -1,0 +1,28 @@
+﻿using skillhub.CommonLayer.Model.GigPackages;
+
+namespace skillhub.CommonLayer.Model.Gigs
+{
+    public class Gig
+    {
+        public int userId { get; private set; }
+        public string title { get; private set; }
+        public string description { get; private set; }
+        public int categoryId { get; private set; }
+        public List<GigPackage> GigPackages { get; private set; }
+
+        public Gig(
+            int userId,
+            string title,
+            string description,
+            int categoryId)
+        {
+            
+            this.userId = userId;
+            this.title = title;
+            this.description = description;
+            this.categoryId = categoryId;
+
+            
+        }
+    }
+}

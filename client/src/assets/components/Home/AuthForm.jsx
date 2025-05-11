@@ -58,7 +58,6 @@ const AuthForm = ({ isLogin, formOpen, toggleForm, setIsLogin }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Only validate for registration
     if (!isLogin) {
       if (!email || !password || !username) {
         setError("All fields are required");
@@ -119,7 +118,7 @@ const AuthForm = ({ isLogin, formOpen, toggleForm, setIsLogin }) => {
         else if (role === 'Admin') {
         navigate('/admin', { replace: true });
       } else {
-        navigate('/asad', { replace: true });
+        navigate('/', { replace: true });
       }
 
     } catch (err) {

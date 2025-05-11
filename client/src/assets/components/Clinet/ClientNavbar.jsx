@@ -17,12 +17,16 @@ import {
 } from "lucide-react";
 import AuthForm from "../Home/AuthForm";
 import ModeSwitch from "../shared/ModeSwitch";
+import { useNavigate } from "react-router-dom";
 
 const ClientNavbar = () => {
   const [isLogin, setIsLogin] = useState(true);
   const [formOpen, setFormOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [profileDropdown, setProfileDropdown] = useState(false);
+  const ModeSwitcherLink = () => {
+    const navigate = useNavigate();
+  }
 
   const dropdownRef = useRef(null);
 
@@ -83,13 +87,13 @@ const ClientNavbar = () => {
             </button>
 
             <a
-  href="#"
+  href=""
   className="text-[16px] text-black font-semibold py-2 px-3 rounded-md flex items-center justify-center gap-2 hover:text-green-600 transition"
 >
   Orders
 </a>
 
-            <ModeSwitch>
+            <ModeSwitch >
   {(mode) => (
     <a
       href="#"
