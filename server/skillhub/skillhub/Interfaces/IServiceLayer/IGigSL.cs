@@ -1,7 +1,4 @@
-﻿using skillhub.CommonLayer.Model.Freelancer;
-using skillhub.CommonLayer.Model.Gigs;
-using skillhub.ServiceLayer;
-
+﻿
 namespace skillhub.Interfaces.IServiceLayer
 {
     public interface IGigSL
