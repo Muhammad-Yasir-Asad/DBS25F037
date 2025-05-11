@@ -27,10 +27,6 @@ builder.Services.AddScoped<UserInterfaceSL, UserSL>();
 builder.Services.AddScoped<UserInterfaceRL, UserRL>();
 builder.Services.AddScoped<IFreelancerSL, FreelancerSL>();
 builder.Services.AddScoped<IFreelancerRL, FreelancerRL>();
-builder.Services.AddScoped<IMessageSL, MessageSL>();
-builder.Services.AddScoped<IMessageRL, MessageRL>();
-builder.Services.AddScoped<IWalletSL, WalletSL>();
-builder.Services.AddScoped<IWalletRL, WalletRL>();
 #endregion
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -59,28 +55,48 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+//#region Dependency Injection
+builder.Services.AddScoped<UserInterfaceSL, UserSL>();
+builder.Services.AddScoped<UserInterfaceRL, UserRL>();
+builder.Services.AddScoped<IFreelancerSL, FreelancerSL>();
+builder.Services.AddScoped<IFreelancerRL, FreelancerRL>();
+builder.Services.AddScoped<IGigSL, GigSL>(); // ? Moved here
+builder.Services.AddScoped<IGigRL, GigRL>(); // ? Moved here
+// ? Moved here
+builder.Services.AddScoped<IGigPackageBasicSL, GigPackageBasicSL>(); // ? Moved here
+builder.Services.AddScoped<IGigPackageStandardSL, GigPackageStandardSL>(); // ? Moved here
+builder.Services.AddScoped<IGigPackagePremiumSL, GigPackagePremiumSL>(); // ? Moved here
+builder.Services.AddScoped<IGigPackageRL, GigPackageRL>(); // ? Moved he
+//builder.Services.AddScoped<IGigPackageSL, SomeConcreteImplementation>();
+
+
+
+//#endregion
+
 
 
 var app = builder.Build();
 
 
-    app.UseSwagger();
-    app.UseSwaggerUI();
+app.UseSwagger();
+app.UseSwaggerUI();
 
 
 
-    app.UseCors("AllowAll"); // Allow all origins for development
+app.UseCors("AllowAll"); // Allow all origins for development
 
-    app.UseRouting();
+app.UseRouting();
 
-    app.UseEndpoints(endpoints =>
-    {
-        endpoints.MapControllers();
-    });
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+});
 
 
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

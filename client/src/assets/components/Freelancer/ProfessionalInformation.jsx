@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const genderOptions = [
   { value: 'Male', label: 'Male' },
@@ -73,6 +74,7 @@ const ProfessionalInformation = () => {
   const [educationSubjectsOptions, setEducationSubjectsOptions] = useState([]);
   const [responseMessage, setResponseMessage] = useState('');
   const [error, setError] = useState('');
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -86,7 +88,7 @@ const ProfessionalInformation = () => {
     setFormData(prev => ({
       ...prev,
       educationLevel: level,
-      educationSubject: '', // reset subject
+      educationSubject: '', 
     }));
     setEducationSubjectsOptions(educationSubjects[level] || []);
     setError('');
@@ -117,12 +119,14 @@ const ProfessionalInformation = () => {
       }
 
       setResponseMessage('Information submitted successfully.');
+      localStorage.setItem('freelancerProfileCompleted', 'true');
       setFormData({
         gender: '',
         language: '',
         educationLevel: '',
         educationSubject: '',
       });
+      navigate('/manage_gig');
       setEducationSubjectsOptions([]);
     } catch (err) {
       console.error('Error submitting:', err.message);

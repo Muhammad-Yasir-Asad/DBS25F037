@@ -17,16 +17,14 @@ import {
 } from "lucide-react";
 import AuthForm from "../Home/AuthForm";
 import ModeSwitch from "../shared/ModeSwitch";
-import { useNavigate } from "react-router-dom";
+
 
 const ClientNavbar = () => {
   const [isLogin, setIsLogin] = useState(true);
   const [formOpen, setFormOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [profileDropdown, setProfileDropdown] = useState(false);
-  const ModeSwitcherLink = () => {
-    const navigate = useNavigate();
-  }
+ 
 
   const dropdownRef = useRef(null);
 
@@ -106,6 +104,7 @@ const ClientNavbar = () => {
         textDecoration: "none",
       }}
     >
+      Switch
       <Shuffle size={16} />
       Switch to {mode === "Selling" ? "Buying" : "Selling"}
     </a>

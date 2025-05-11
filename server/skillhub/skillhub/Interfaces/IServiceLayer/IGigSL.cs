@@ -1,4 +1,6 @@
-﻿
+﻿using skillhub.CommonLayer.Model.Gig;
+using skillhub.CommonLayer.Model.GigPackages;
+
 namespace skillhub.Interfaces.IServiceLayer
 {
     public interface IGigSL

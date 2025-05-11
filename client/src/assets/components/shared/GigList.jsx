@@ -1,12 +1,15 @@
 import React ,{ useContext} from "react";
 import GigCard from "./GigCard";
 import { SearchContext } from "../Context/SearchContext";
-
-
+import { dummyGigData } from "../dummyGigData.js";
 
 const GigList = () => {
 
-    const { gigResults, isLoading, searchQuery } = useContext(SearchContext);
+    // const { gigResults, isLoading, searchQuery } = useContext(SearchContext);
+
+    const isLoading = false;
+  const searchQuery = "Web Design";
+  const gigResults = dummyGigData;
 
   // Handle loading state
   if (isLoading) {

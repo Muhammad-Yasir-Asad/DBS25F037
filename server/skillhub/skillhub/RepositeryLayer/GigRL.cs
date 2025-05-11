@@ -2,6 +2,7 @@
 using skillhub.Common_Utilities;
 using skillhub.Helpers;
 using skillhub.Interfaces.IRepositryLayer;
+using skillhub.CommonLayer.Model.Gig;
 
 namespace skillhub.RepositeryLayer
 {
@@ -126,3 +127,4 @@ namespace skillhub.RepositeryLayer
             }
         }
     }
+}

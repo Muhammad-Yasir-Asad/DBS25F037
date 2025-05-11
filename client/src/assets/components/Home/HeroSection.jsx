@@ -150,7 +150,7 @@ const HeroSection = () => {
       </div>
 
       {/* Right Section - Carousel */}
-      <div className="sSection relative w-full flex ">
+      <div className="sSection relative w-full flex hidden lg:block ">
         <div className="homepage-hero-carousel w-full max-w-4xl">
           <div className={`homepage-hero-artwork  transition-colors duration-500`} 
                style={{ backgroundColor: `${currentSlideData.primaryColor}10` }}>

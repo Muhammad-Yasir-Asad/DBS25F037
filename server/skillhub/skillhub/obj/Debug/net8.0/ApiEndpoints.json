@@ -96,6 +96,96 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "skillhub.Controllers.GigController",
+    "Method": "AddFreelancerGig",
+    "RelativePath": "api/Gig/add_Freelancer_Gig",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gigRequest",
+        "Type": "skillhub.CommonLayer.Model.Gig.GigRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.GigController",
+    "Method": "DeleteGig",
+    "RelativePath": "api/Gig/DeleteGig",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.GigController",
+    "Method": "UpdateGig",
+    "RelativePath": "api/Gig/UpdateGig",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "gigRequest",
+        "Type": "skillhub.CommonLayer.Model.Gig.GigRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.GigPackageController",
+    "Method": "AddPackage",
+    "RelativePath": "api/GigPackage/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "skillhub.CommonLayer.Model.GigPackages.GigPackageRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.GigPackageController",
+    "Method": "updatePackage",
+    "RelativePath": "api/GigPackage/UpdateGigPackage",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "package",
+        "Type": "skillhub.CommonLayer.Model.GigPackages.GigPackageRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "skillhub.Controllers.MessagesController",
     "Method": "SendMessage",
     "RelativePath": "api/Messages/send",

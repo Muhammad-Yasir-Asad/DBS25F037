@@ -16,7 +16,7 @@ namespace skillhub.Common_Utilities
             }
         }
 
-       
+
         public static string AuthenticateUser
         {
             get
@@ -48,6 +48,84 @@ namespace skillhub.Common_Utilities
                 return configuration["FreelancerInformation"];
             }
         }
+        public static string GigInformation
+        {
+            get
+            {
+                return configuration["GigInformation"];
+            }
+        }
+        public static string GigPackageInformation
+        {
+            get
+            {
+                return configuration["GigPackageInformation"];
+            }
+        }
+        public static string GigPackageSkillInformation
+        {
+            get
+            {
+                return configuration["GigPackageSkillInformation"];
+            }
+        }
+        public static string DeleteFreelancer
+        {
+            get
+            {
+                return configuration["DeleteFreelancer"];
+            }
+        }
+        public static string FindUser
+        {
+            get
+            {
+                return configuration["findUser"];
+            }
+        }
+        public static string PaymentInformation
+        {
+            get
+            {
+                return configuration["PaymentInformation"];
+            }
+        }
+        public static string GigDelete
+        {
+            get
+            {
+                return configuration["GigDelete"];
+            }
+        }
+        public static string GigUpdate
+        {
+            get
+            {
+                return configuration["GigUpdate"];
+            }
+        }
+        public static string GigPackageUpdate
+        {
+            get
+            {
+                return configuration["GigPackageUpdate"];
+            }
+        }
+        public static string UpdatePayment
+        {
+            get
+            {
+                return configuration["UpdatePayment"];
+            }
+        }
+        public static string GigPackageSkillUpdate
+        {
+            get
+            {
+                return configuration["GigPackageSkillUpdate"];
+            }
+        }
+
         public static string sendmessage
         {
             get
@@ -55,6 +133,7 @@ namespace skillhub.Common_Utilities
                 return configuration["SendMessage"];
             }
         }
+
         public static string makeWallet
         {
             get

@@ -1,5 +1,7 @@
 ﻿using skillhub.Interfaces.IRepositryLayer;
 using skillhub.Interfaces.IServiceLayer;
+using skillhub.CommonLayer.Model.Gig;
+using skillhub.CommonLayer.Model.GigPackages;
 
 namespace skillhub.ServiceLayer
 {

@@ -1,6 +1,4 @@
-﻿using skillhub.CommonLayer.Model.Gig;
-
-namespace skillhub.CommonLayer.Model.Gigs
+﻿namespace skillhub.CommonLayer.Model.Gig
 {
     public class GigRequest
     {
@@ -9,7 +7,6 @@ namespace skillhub.CommonLayer.Model.Gigs
         public string description { get; set; }
         public int categoryId { get; set; }
 
-
     }
-}
 
+}

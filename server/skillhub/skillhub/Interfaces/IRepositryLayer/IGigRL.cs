@@ -1,4 +1,6 @@
-﻿namespace skillhub.Interfaces.IRepositryLayer
+﻿using skillhub.CommonLayer.Model.Gig;
+
+namespace skillhub.Interfaces.IRepositryLayer
 {
         public interface IGigRL
         {

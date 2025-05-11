@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using skillhub.CommonLayer.Model.Freelancer;
 using skillhub.CommonLayer.Model.Users;
-using skillhub.Interfaces.IServiceLayer;
-using skillhub.CommonLayer.Model.Gigs;
+using skillhub.CommonLayer.Model.Gig;
 using skillhub.ServiceLayer;
+using skillhub.CommonLayer.Model.GigPackages;
 using skillhub.RepositeryLayer;
 
 

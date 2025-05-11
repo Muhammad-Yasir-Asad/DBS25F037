@@ -2,9 +2,16 @@ import React, { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import CountUp from 'react-countup';
+import { useNavigate } from 'react-router-dom';
 
 const StartSelling = () => {
   const [hoveredCard, setHoveredCard] = useState(null);
+  const navigate = useNavigate();
+
+  const NavigateToSeller = () => {
+    navigate("/freelancer/personal_information");
+  }
+
   const statsRef = useRef(null);
 const statsInView = useInView(statsRef, { once: true, margin: "-100px" });
 
@@ -53,6 +60,7 @@ const statsInView = useInView(statsRef, { once: true, margin: "-100px" });
     <motion.button
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
+      onClick={NavigateToSeller}
       className="bg-green-500 text-white px-8 py-3 md:px-10 md:py-4 rounded-full text-lg md:text-xl"
     >
       Become a Seller
@@ -151,6 +159,7 @@ const statsInView = useInView(statsRef, { once: true, margin: "-100px" });
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={NavigateToSeller}
             className="bg-green-500 text-white px-6 py-2 md:px-8 md:py-3 rounded-full text-sm md:text-base"
           >
             Become a Seller
@@ -233,6 +242,7 @@ const statsInView = useInView(statsRef, { once: true, margin: "-100px" });
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={NavigateToSeller}
             className="bg-white text-green-500 px-8 py-3 md:px-12 md:py-4 rounded-full text-lg md:text-xl font-semibold"
           >
             Get Started Now

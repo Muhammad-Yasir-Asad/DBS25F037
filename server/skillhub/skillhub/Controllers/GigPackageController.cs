@@ -1,4 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using skillhub.CommonLayer.Model.GigPackages;
+using skillhub.Interfaces.IServiceLayer;
+using skillhub.Interfaces.IRepositryLayer;
 
 namespace skillhub.Controllers
 {

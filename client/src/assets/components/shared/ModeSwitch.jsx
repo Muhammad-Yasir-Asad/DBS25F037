@@ -1,4 +1,3 @@
-// src/shared/ModeSwitch.jsx
 import { useState, useEffect } from 'react';
 import { getMode, toggleMode } from '../utils/mode';
 import { useNavigate } from 'react-router-dom';
@@ -16,8 +15,16 @@ export default function ModeSwitch({ children }) {
   const handleClick = () => {
     const newMode = toggleMode();
     setModeState(newMode);
+
+    // Retrieve profile completion status from localStorage
+    const profileCompleted = localStorage.getItem("freelancerProfileCompleted") === "true";
+
     if (newMode === 'Selling') {
-      navigate('/freelancer');
+      if (profileCompleted) {
+        navigate('/freelancer/dashboard');
+      } else {
+        navigate('/freelancer/start_selling');
+      }
     } else {
       navigate('/client');
     }

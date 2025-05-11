@@ -1,4 +1,6 @@
-﻿namespace skillhub.CommonLayer.Model.Gig
+﻿using skillhub.CommonLayer.Model.GigPackages;
+
+namespace skillhub.CommonLayer.Model.Gig
 {
     public class Gig
     {
@@ -23,5 +25,4 @@
 
         }
     }
-
 }

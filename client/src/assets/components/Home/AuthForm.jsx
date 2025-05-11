@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from "react"; 
 import { Eye, EyeOff } from "lucide-react";
 import { CiCircleCheck } from "react-icons/ci";
 import { useNavigate } from "react-router-dom";
@@ -95,7 +95,6 @@ const AuthForm = ({ isLogin, formOpen, toggleForm, setIsLogin }) => {
       const body = await res.json();
 
       if (!res.ok) {
-        
         throw new Error(body.message || (isLogin ? "Login failed" : "Registration failed"));
       }
 
@@ -103,6 +102,7 @@ const AuthForm = ({ isLogin, formOpen, toggleForm, setIsLogin }) => {
       
       const token = body.token;
       localStorage.setItem('auth-token', token);
+      localStorage.setItem("freelancerProfileCompleted", "false");
       const { role } = jwtDecode(token);
 
       setEmail("");
@@ -112,13 +112,20 @@ const AuthForm = ({ isLogin, formOpen, toggleForm, setIsLogin }) => {
       setEmailAvailable(null);
       toggleForm();
 
-      if (role === "User") {
-        navigate('/client', { replace: true });
-      } 
-        else if (role === 'Admin') {
-        navigate('/admin', { replace: true });
+      if (isLogin) {
+        if (role === "User") {
+          navigate('/client', { replace: true });
+        } else if (role === 'Admin') {
+          navigate('/admin', { replace: true });
+        } else {
+          navigate('/', { replace: true });
+        }
       } else {
-        navigate('/', { replace: true });
+        if (role === "User") {
+          navigate('/client', { replace: true });
+        } else {
+          navigate('/', { replace: true });
+        }
       }
 
     } catch (err) {
@@ -260,76 +267,4 @@ const AuthForm = ({ isLogin, formOpen, toggleForm, setIsLogin }) => {
                 {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
               </button>
             </div>
-
-            {!isLogin && (
-              <div className="text-gray-500 text-sm space-y-1">
-                <div className="flex items-center gap-1">
-                  <CiCircleCheck className={`${password.length >= 8 ? "text-green-600" : "text-gray-400"}`} />
-                  <span className={`${password.length >= 8 ? "text-green-600" : "text-gray-400"}`}>Minimum 8 characters</span>
-                </div>
-                <div className="flex items-center gap-1">
-                  <CiCircleCheck className={`${/[A-Z]/.test(password) ? "text-green-600" : "text-gray-400"}`} />
-                  <span className={`${/[A-Z]/.test(password) ? "text-green-600" : "text-gray-400"}`}>1 uppercase letter</span>
-                </div>
-                <div className="flex items-center gap-1">
-                  <CiCircleCheck className={`${/[a-z]/.test(password) ? "text-green-600" : "text-gray-400"}`} />
-                  <span className={`${/[a-z]/.test(password) ? "text-green-600" : "text-gray-400"}`}>1 lowercase letter</span>
-                </div>
-                <div className="flex items-center gap-1">
-                  <CiCircleCheck className={`${/\d/.test(password) ? "text-green-600" : "text-gray-400"}`} />
-                  <span className={`${/\d/.test(password) ? "text-green-600" : "text-gray-400"}`}>1 number</span>
-                </div>
-              </div>
-            )}
-
-            <button
-              type="submit"
-              className={`mt-4 py-2 rounded-md transition ${
-                isLogin 
-                  ? (email && password) 
-                    ? "bg-green-600 text-white hover:bg-green-700" 
-                    : "bg-gray-300 text-gray-500 cursor-not-allowed"
-                  : (email && password.length >= 8 && username.length > 6 && usernameAvailable && emailAvailable)
-                    ? "bg-green-600 text-white hover:bg-green-700"
-                    : "bg-gray-300 text-gray-500 cursor-not-allowed"
-              }`}
-              disabled={
-                isLogin 
-                  ? !email || !password
-                  : !email || password.length < 8 || username.length <= 6 || !usernameAvailable || !emailAvailable
-              }
-            >
-              {isLogin ? "Login" : "Create Account"}
-            </button>
-          </form>
-
-          <div className="mt-4 text-sm text-center">
-            {isLogin ? (
-              <p>
-                Don't have an account?{" "}
-                <span
-                  className="text-green-600 cursor-pointer font-medium"
-                  onClick={() => setIsLogin(false)}
-                >
-                  Continue
-                </span>
-              </p>
-            ) : (
-              <p>
-                Already have an account?{" "}
-                <span
-                  className="text-green-600 cursor-pointer font-medium"
-                  onClick={() => setIsLogin(true)}
-                >
-                  Login
-                </span>
-              </p>
-            )}
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default AuthForm;
+{!isLogin && ( <div className="text-gray-500 text-sm space-y-1"> <div className="flex items-center gap-1"> <CiCircleCheck className={`${password.length >= 8 ? "text-green-600" : "text-gray-400"}`} /> <span className={`${password.length >= 8 ? "text-green-600" : "text-gray-400"}`}>Minimum 8 characters</span> </div> <div className="flex items-center gap-1"> <CiCircleCheck className={`${/[A-Z]/.test(password) ? "text-green-600" : "text-gray-400"}`} /> <span className={`${/[A-Z]/.test(password) ? "text-green-600" : "text-gray-400"}`}>1 uppercase letter</span> </div> <div className="flex items-center gap-1"> <CiCircleCheck className={`${/[a-z]/.test(password) ? "text-green-600" : "text-gray-400"}`} /> <span className={`${/[a-z]/.test(password) ? "text-green-600" : "text-gray-400"}`}>1 lowercase letter</span> </div> <div className="flex items-center gap-1"> <CiCircleCheck className={`${/\d/.test(password) ? "text-green-600" : "text-gray-400"}`} /> <span className={`${/\d/.test(password) ? "text-green-600" : "text-gray-400"}`}>1 number</span> </div> </div> )} <button type="submit" className={`mt-4 py-2 rounded-md transition ${ isLogin ? (email && password) ? "bg-green-600 text-white hover:bg-green-700" : "bg-gray-300 text-gray-500 cursor-not-allowed" : (email && password.length >= 8 && username.length > 6 && usernameAvailable && emailAvailable) ? "bg-green-600 text-white hover:bg-green-700" : "bg-gray-300 text-gray-500 cursor-not-allowed" }`} disabled={ isLogin ? !email || !password : !email || password.length < 8 || username.length <= 6 || !usernameAvailable || !emailAvailable } > {isLogin ? "Login" : "Create Account"} </button> </form> <div className="mt-4 text-sm text-center"> {isLogin ? ( <p> Don't have an account?{" "} <span className="text-green-600 cursor-pointer font-medium" onClick={() => setIsLogin(false)} > Continue </span> </p> ) : ( <p> Already have an account?{" "} <span className="text-green-600 cursor-pointer font-medium" onClick={() => setIsLogin(true)} > Login </span> </p> )} </div> </div> </div> </div> ); }; export default AuthForm;

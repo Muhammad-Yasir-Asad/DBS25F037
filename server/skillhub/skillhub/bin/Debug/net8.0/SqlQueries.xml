@@ -1,39 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Queries>
 	<EmailExists>
-		<![CDATA[
-			SELECT COUNT(*) FROM user WHERE email = @email; 
-		]]>
+		<![CDATA[ SELECT COUNT(*) FROM user WHERE email = @email; ]]>
 	</EmailExists>
-		<RegisterUser>
-			<![CDATA[
-				INSERT INTO `user` (firstName, lastName, email, passwordHash, profilePicture, isActive, roleID, joinDate, bio, phone, country, username) VALUES ('', '', @email, @passwordHash, NULL, 1, @roleID, NOW(), '', '03001234567', 13, @userName);
-			]]>
-			</RegisterUser>
+	<RegisterUser>
+		<![CDATA[ INSERT INTO `user` (firstName, lastName, email, passwordHash, profilePicture, isActive, roleID, joinDate, bio, phone, country, username) VALUES ('', '', @email, @passwordHash, NULL, 1, @roleID, NOW(), '', '03001234567', 13, @userName); ]]>
+	</RegisterUser>
 	<AuthenticateUser>
-			<![CDATA[
-				SELECT userID, passwordHash, userName, roleID from user WHERE email = @email;
-			]]>		
+		<![CDATA[ SELECT userID, passwordHash, userName, roleID from user WHERE email = @email; ]]>
 	</AuthenticateUser>
 	<UserNameExists>
-			<![CDATA[
-				SELECT COUNT(*) FROM user WHERE userName = @userName; 
-		]]>
+		<![CDATA[ SELECT COUNT(*) FROM user WHERE userName = @userName; ]]>
 	</UserNameExists>
 	<FreelancerInformation>
-		<![CDATA[
-			INSERT INTO `freelancerprofile` (userid ,gender, education, language) VALUES(@userID, @gender, @education, @language);
-		]]>
+		<![CDATA[ INSERT INTO `freelancerprofile` (userid ,gender, education, language) VALUES(@userID, @gender, @education, @language); ]]>
 	</FreelancerInformation>
+	<DeleteFreelancer>
+		<![CDATA[ DELETE FROM `freelancerprofile` WHERE freelancerID= @freelancerid; ]]>
+	</DeleteFreelancer>
+	<GigInformation>
+		<![CDATA[ -- Insert into gig table first (you need to insert gig details before gig packages) INSERT INTO gig (userid, title, description, categoryid,picture,video) VALUES (@userId, @title, @description, @categoryId,@picture,@video); SELECT LAST_INSERT_ID();; ]]>
+	</GigInformation>
+	<GigDelete> DELETE FROM gig WHERE GigId=@gigId; </GigDelete>
+	<GigPackageInformation>
+		<![CDATA[ INSERT INTO gigpackage (gigId, packageType, price, deliveryDays, description) VALUES (@gigId, @packageType, @price, @deliveryDays, @description); ]]>
+	</GigPackageInformation>
+	<GigPackageSkillInformation>
+		<![CDATA[ INSERT INTO `gigpackageskill` (packageSkillId, packageId, skillId) VALUES (@packageSkillId, @packageId, @skillId); ]]>
+	</GigPackageSkillInformation>
+	<PaymentInformation>
+		<![CDATA[ Insert into `paymentrequest` (UserID, CoinAmount) VALUES (@UserID, @CoinAmount); ]]>
+	</PaymentInformation>
+	<FindUser>
+		<![CDATA[ SELECT * FROM user WHERE userID = @userId; ]]>
+	</FindUser>
+	<GigUpdate>
+		<![CDATA[ UPDATE gig SET userId = @userId, title = @title, description = @description, categoryId = @categoryId picture= @picture, video= @video WHERE gigId = @gigId; ]]>
+	</GigUpdate>
+	<GigPackageUpdate>
+		<![CDATA[ UPDATE gigpackage SET price = @price, deliveryDays = @deliveryDays, description = @description WHERE gigId = @gigId AND packageType = @packageType; ]]>
+	</GigPackageUpdate>
+	<UpdatePayment>
+		<![CDATA[ Update paymentrequest Set Status=@Status WHERE RequestID=@RequestID ]]>
+	</UpdatePayment>
+	<GigPackageSkillUpdate>
+		<![CDATA[ UPDATE gigpackageskill SET skillId = @skillId WHERE packageId = @packageId AND packageSkillId = @packageSkillId; ]]>
+	</GigPackageSkillUpdate>
 	<SendMessage>
-		<![CDATA[
-		Insert into message(senderID,receiverid,Messagetext) values (@senderid,@receiverid,@messagetext); 
-	]]>
+		<![CDATA[ Insert into message(senderID,receiverid,Messagetext) values (@senderid,@receiverid,@messagetext); ]]>
 	</SendMessage>
 	<MakeWallet>
-		<![CDATA[
-	Insert into wallet(userID,coinbalance,Status) values (@userID,@coinbalance,@status); 
-	]]>
+		<![CDATA[ Insert into wallet(userID,coinbalance,Status) values (@userID,@coinbalance,'active'); ]]>
 	</MakeWallet>
-	
 </Queries>
