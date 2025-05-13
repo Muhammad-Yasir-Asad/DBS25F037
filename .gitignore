@@ -3,6 +3,9 @@ clinet/build/
 clinet/.env
 
 # Ignore Visual Studio folders
+wwwroot/
+bin/
+obj/
 .vs/
 *.suo
 *.user
