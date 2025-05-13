@@ -18,7 +18,7 @@ namespace skillhub.ServiceLayer
         {
             return "Premium";
         }
-        public override Task<bool> AddGigPackage(GigPackageRequest gigPackage)
+        public override Task<int> AddGigPackage(GigPackageRequest gigPackage)
         {
             GigPackagePremium gigPackagePremium = new GigPackagePremium(gigPackage.GigId, gigPackage.Price, gigPackage.DeliveryDays, gigPackage.Description);
             return gigPackageRL.AddGigPackage(gigPackagePremium, gigPackagePremium.GetPackageType());

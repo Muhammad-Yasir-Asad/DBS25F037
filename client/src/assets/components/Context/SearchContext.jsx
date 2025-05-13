@@ -10,11 +10,13 @@
 
     const fetchGigs = async (query) => {
         setIsLoading(true);
+         setGigResults([]);
+         setSearchQuery('');
+               setSearchQuery(query);
         try {
-        const response = await fetch(`https://skillhub.runasp.net/api/Gigs/search/${query}`);
+        const response = await fetch(`https://skillhub.runasp.net/api/Search/search/${query}`);
         const data = await response.json();
         setGigResults(data);
-        setSearchQuery(query);
         } catch (err) {
         console.error('Failed to fetch gigs:', err);
         } finally {

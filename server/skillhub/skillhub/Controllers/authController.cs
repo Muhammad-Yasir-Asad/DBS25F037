@@ -90,11 +90,11 @@ namespace skillhub.Controllers
         }
 
         [HttpPost("personal-information")]
-        public async Task<IActionResult> AddPersonalInformation(PersonalInformation personalInformation)
+        public async Task<IActionResult> AddPersonalInformation([FromForm] PersonalInformationRequest personalInformationRequest)
         {
             try
             {
-                var result = await userInterface.AddPersonalInformation(personalInformation);
+                var result = await userInterface.AddPersonalInformation(personalInformationRequest);
                 return Ok(new { message = "Information saved successfully", data = result });
             }
             catch (Exception ex)

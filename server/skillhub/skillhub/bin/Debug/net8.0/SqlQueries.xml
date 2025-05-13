@@ -4,8 +4,11 @@
 		<![CDATA[ SELECT COUNT(*) FROM user WHERE email = @email; ]]>
 	</EmailExists>
 	<RegisterUser>
-		<![CDATA[ INSERT INTO `user` (firstName, lastName, email, passwordHash, profilePicture, isActive, roleID, joinDate, bio, phone, country, username) VALUES ('', '', @email, @passwordHash, NULL, 1, @roleID, NOW(), '', '03001234567', 13, @userName); ]]>
+		<![CDATA[ INSERT INTO `user` (firstName, lastName, email, passwordHash, profilePicture, roleID, joinDate, bio, phone, country, username) VALUES ('', '', @email, @passwordHash, NULL, @roleID, NOW(), '', '03001234567', Null, @userName); ]]>
 	</RegisterUser>
+	<AddPersonalInformation>
+		<![CDATA[ UPDATE user SET firstName=@FirstName, lastName=@LastName, phone=@Phone, country=@Country, profilePicture=@ProfilePicturePath, bio=@Bio WHERE userID=@UserID; ]]>
+	</AddPersonalInformation>
 	<AuthenticateUser>
 		<![CDATA[ SELECT userID, passwordHash, userName, roleID from user WHERE email = @email; ]]>
 	</AuthenticateUser>
@@ -19,11 +22,13 @@
 		<![CDATA[ DELETE FROM `freelancerprofile` WHERE freelancerID= @freelancerid; ]]>
 	</DeleteFreelancer>
 	<GigInformation>
-		<![CDATA[ -- Insert into gig table first (you need to insert gig details before gig packages) INSERT INTO gig (userid, title, description, categoryid,picture,video) VALUES (@userId, @title, @description, @categoryId,@picture,@video); SELECT LAST_INSERT_ID();; ]]>
+		<![CDATA[  INSERT INTO gig (userid, title, description, categoryid,picture,video) VALUES (@userId, @title, @description, @categoryId,@picture,@video); SELECT LAST_INSERT_ID();; ]]>
 	</GigInformation>
 	<GigDelete> DELETE FROM gig WHERE GigId=@gigId; </GigDelete>
 	<GigPackageInformation>
-		<![CDATA[ INSERT INTO gigpackage (gigId, packageType, price, deliveryDays, description) VALUES (@gigId, @packageType, @price, @deliveryDays, @description); ]]>
+		<![CDATA[ INSERT INTO gigpackage 
+(gigId, packageType, price, deliveryDays, description) 
+VALUES (@gigId, @packageType, @price, @deliveryDays, @description); SELECT LAST_INSERT_ID();]]>
 	</GigPackageInformation>
 	<GigPackageSkillInformation>
 		<![CDATA[ INSERT INTO `gigpackageskill` (packageSkillId, packageId, skillId) VALUES (@packageSkillId, @packageId, @skillId); ]]>
@@ -46,10 +51,146 @@
 	<GigPackageSkillUpdate>
 		<![CDATA[ UPDATE gigpackageskill SET skillId = @skillId WHERE packageId = @packageId AND packageSkillId = @packageSkillId; ]]>
 	</GigPackageSkillUpdate>
+	
 	<SendMessage>
-		<![CDATA[ Insert into message(senderID,receiverid,Messagetext) values (@senderid,@receiverid,@messagetext); ]]>
+		<![CDATA[
+			Insert into message(senderID,receiverid,Messagetext) values (@senderid,@receiverid,@messagetext); 
+		]]>
 	</SendMessage>
+	<RetriveMsgbysender>
+		<![CDATA[
+		SELECT * FROM message where senderId=@senderid;
+		]]>
+	</RetriveMsgbysender>
+	<RetriveMsgbyreceiver>
+		<![CDATA[
+		SELECT * FROM message where receiverId=@receiverid;
+		]]>
+	</RetriveMsgbyreceiver>
+	<DeleteMessage>
+		<![CDATA[
+			Delete from message where messageid=@messageId; 
+		]]>
+	</DeleteMessage>
+	<DeleteWallet>
+		<![CDATA[
+			Delete from wallet where walletid=@walletId; 
+		]]>
+	</DeleteWallet>
 	<MakeWallet>
-		<![CDATA[ Insert into wallet(userID,coinbalance,Status) values (@userID,@coinbalance,'active'); ]]>
+		<![CDATA[
+		Insert into wallet(userID,coinbalance,Status) values (@userID,@coinbalance,'active'); 
+		]]>
 	</MakeWallet>
+	<UpdateWallet>
+		<![CDATA[
+		Update wallet Set coinbalance=@coinbalance,Status=@status,lastUpdated=current_timestamp() where walletid=@walletID;
+		]]>
+	</UpdateWallet>
+	<FindWallet>
+		<![CDATA[
+		Select * from wallet where userid=@userID;
+		]]>
+	</FindWallet>
+	<BlockUser>
+		<![CDATA[
+		Insert into blocked(blockerid,blockeduserid,reason) values(@blockerId,@blockedUserId,@reason);
+		]]>
+	</BlockUser>
+	<Unblock>
+		<![CDATA[
+		Delete From blocked where blockeduserId=@blockeduserId and blockerid=blockerid;
+		]]>
+	</Unblock>
+	
+	<FindFreelancer>
+		<![CDATA[
+		Select * from  freelancerprofile where freelancerID=@freelancerID
+		]]>
+	</FindFreelancer>
+	<FetchFreelancers>
+		<![CDATA[
+		SELECT * FROM freelancerprofile;
+		]]>
+	</FetchFreelancers>
+	<Findgig>
+		<![CDATA[
+		Select * from gig where GigId=@gigId
+		]]>
+	</Findgig>
+	<InsertOrder>
+		<![CDATA[
+		INSERT INTO orders(clientId, gigId, freelancerID, dueDate, coinAmount) VALUES (@clientId,@gigID,@freelancerId,@dueDate,@coinAmount);
+		]]>
+	</InsertOrder>
+	<FindOrder>
+		<![CDATA[
+		Select * from orders where orderid=@orderId
+		]]>
+	</FindOrder>
+	<UpdateOrder>
+		<![CDATA[
+		update orders set status=@status where orderid=@orderId; 
+		]]>
+	</UpdateOrder>
+	<DeleteOrder>
+		<![CDATA[
+		Delete from orders where orderid=@orderId
+		]]>
+	</DeleteOrder>
+	<OrderReport>
+		<![CDATA[
+	Select * from show_orders
+	]]>
+	</OrderReport>
+	<FreeLancerReport>
+		<![CDATA[
+	Select * from show_freelancers
+	]]>
+	</FreeLancerReport>
+	<GigReport>
+		<![CDATA[
+	SELECT * FROM show_gigs;
+	]]>
+	</GigReport>
+	<ClientsReport>
+		<![CDATA[
+	SELECT * FROM show_clients;
+	]]>
+	</ClientsReport>
+	<BlockedReport>
+		<![CDATA[
+	SELECT * FROM show_blocked;
+	]]>
+	</BlockedReport>
+	<FreelancerExperinceReport>
+		<![CDATA[
+	Call freelancerExperience(@years);
+	]]>
+	</FreelancerExperinceReport>
+	<FreelacnerOrderReport>
+		<![CDATA[
+	Call freelancerOrders(@orders);
+	]]>
+	</FreelacnerOrderReport>
+	<CompletedOrderReport>
+		<![CDATA[
+	call Skillhub.CompletedOrders(@date);
+	]]>
+	</CompletedOrderReport>
+	<PackageReport>
+		<![CDATA[
+	Select * from show_packages;
+	]]>
+	</PackageReport>
+	<WalletReport>
+		<![CDATA[
+	Select * from show_wallet;
+	]]>
+	</WalletReport>
+	<OrderCoinReport>
+		<![CDATA[
+	call Skillhub.OrdersWithMinCoins(@coins);
+	]]>
+	</OrderCoinReport>
 </Queries>

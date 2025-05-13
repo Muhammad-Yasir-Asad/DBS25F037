@@ -13,10 +13,25 @@ namespace skillhub.RepositeryLayer
             this.messageInterface = messageInterface;
         }
 
-        public Task<bool> SendMessage(MessageRequest request)
+        public Task<bool> DeleteMessage(int messageid)
         {
-                Message message = new Message(request.senderId, request.receiverId, request.messageText);
-            return messageInterface.SendMessage(message);
+            return messageInterface.DeleteMessage(messageid);
+        }
+
+        public Task<List<Message>> RetriveMessagebyReceiver(int receiverid)
+        {
+            return messageInterface.RetriveMessagebyReceiver(receiverid);
+        }
+
+        public Task<List<Message>> RetriveMessagebySender(int senderid)
+        {
+            return messageInterface.RetriveMessagebySender(senderid);
+        }
+
+        public async Task<bool> SendMessage(MessageRequest request)
+        {
+            Message message = new Message(request.senderId, request.receiverId, request.messageText);
+            return await messageInterface.SendMessage(message);
         }
 
     }

@@ -1,5 +1,7 @@
 ﻿using System.Text.RegularExpressions;
 using Azure;
+using Microsoft.AspNetCore.Hosting;
+using System.IO;
 using skillhub.CommonLayer.Model.Users;
 using skillhub.Interfaces.IRepositryLayer;
 using skillhub.Interfaces.IServiceLayer;
@@ -9,9 +11,11 @@ namespace skillhub.ServiceLayer
     public class UserSL : UserInterfaceSL
     {
         public readonly UserInterfaceRL userInterface;
-        public UserSL(UserInterfaceRL userInterface)
+        private readonly IWebHostEnvironment environment;
+        public UserSL(UserInterfaceRL userInterface, IWebHostEnvironment environment)
         {
             this.userInterface = userInterface;
+            this.environment = environment;
         }
 
         public async Task<UserRegisterResponse> AddUserRegister(RegisterRequest request)
@@ -77,47 +81,57 @@ namespace skillhub.ServiceLayer
             return userInterface.CheckUserNameExists(userName);
         }
 
-        public async Task<bool> AddPersonalInformation(PersonalInformation personalInformation)
+
+         async Task<bool> UserInterfaceSL.AddPersonalInformation(PersonalInformationRequest personalInformation)
         {
-            if (string.IsNullOrWhiteSpace(personalInformation.firstName))
+            if (string.IsNullOrWhiteSpace(personalInformation.FirstName) ||
+               string.IsNullOrWhiteSpace(personalInformation.LastName) ||
+               string.IsNullOrWhiteSpace(personalInformation.Phone) || personalInformation.Phone.Length != 11 ||
+               string.IsNullOrWhiteSpace(personalInformation.Country) ||
+               personalInformation.ProfilePicture == null ||
+               string.IsNullOrWhiteSpace(personalInformation.Bio))
+            {
                 return false;
+            }
 
-            if (string.IsNullOrWhiteSpace(personalInformation.lastName))
-                return false;
+            string fileName = Guid.NewGuid().ToString() + Path.GetExtension(personalInformation.ProfilePicture.FileName);
+            string imagePath = Path.Combine("Images", fileName);
 
-            if (string.IsNullOrWhiteSpace(personalInformation.phone) || personalInformation.phone.Length != 11)
-                return false;
+            string webRootPath = environment.WebRootPath;
 
-            if (string.IsNullOrWhiteSpace(personalInformation.country))
-                return false;
+            if (string.IsNullOrEmpty(webRootPath))
+            {
+                throw new InvalidOperationException("WebRootPath is not set.");
+            }
 
-            if (string.IsNullOrWhiteSpace(personalInformation.profilePicture))
-                return false;
+            Console.WriteLine($"WebRootPath: {webRootPath}");
 
-            if (string.IsNullOrWhiteSpace(personalInformation.bio))
-                return false;
 
-            if (string.IsNullOrWhiteSpace(personalInformation.language))
-                return false;
+            string fullPath = Path.Combine(webRootPath, imagePath);
 
-            // Create User object with constructor (ensure you’ve defined it)
-            User userInformation = new User(
-                personalInformation.userID,
-                personalInformation.firstName,
-                personalInformation.lastName,
-                personalInformation.phone,
-                personalInformation.country,
-                personalInformation.profilePicture,
-                personalInformation.bio,
-                personalInformation.language
+            Directory.CreateDirectory(Path.GetDirectoryName(fullPath)!);
+
+            using (var stream = new FileStream(fullPath, FileMode.Create))
+            {
+                await personalInformation.ProfilePicture.CopyToAsync(stream);
+            }
+
+            User personal_Information = new User(
+                personalInformation.UserID,
+                personalInformation.FirstName,
+                personalInformation.LastName,
+                personalInformation.Phone,
+                personalInformation.Country,
+                imagePath,
+                personalInformation.Bio
             );
 
-            // Call to service/repository
-            return await userInterface.AddPersonalInformation(userInformation);
+            return await userInterface.AddPersonalInformation(personal_Information);
+
         }
-
-
-
-
+        public Task<User> findUser(int userid)
+        {
+            return userInterface.findUser(userid);
+        }
     }
 }

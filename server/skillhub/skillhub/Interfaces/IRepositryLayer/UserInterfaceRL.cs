@@ -12,8 +12,7 @@ namespace skillhub.Interfaces.IRepositryLayer
 
         public Task<bool> CheckUserNameExists(string userName);
 
-        public Task<bool> profileInformation(User personalInformation);
-
-        public Task<bool> AddPersonalInformation(User personalInformation);
+        public Task<bool> AddPersonalInformation(User user);
+        public Task<User> findUser(int userid);
     }
 }

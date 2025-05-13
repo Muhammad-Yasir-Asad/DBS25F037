@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { jwtDecode } from 'jwt-decode';
+
 
 const genderOptions = [
   { value: 'Male', label: 'Male' },
@@ -74,7 +76,27 @@ const ProfessionalInformation = () => {
   const [educationSubjectsOptions, setEducationSubjectsOptions] = useState([]);
   const [responseMessage, setResponseMessage] = useState('');
   const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [userId, setUserId] = useState(null);
   const navigate = useNavigate();
+
+   useEffect(() => {
+        const token = localStorage.getItem('auth-token');
+    if (token) {
+      try {
+        const decoded = jwtDecode(token);
+        console.log('Decoded Token:', decoded); // For debugging
+        if (decoded?.nameid) {
+          setUserId(decoded.nameid);
+        } else {
+          console.warn('User ID not found in token');
+        }
+      } catch (error) {
+        console.error('Error decoding token:', error);
+      }
+    }
+  
+      }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -88,7 +110,7 @@ const ProfessionalInformation = () => {
     setFormData(prev => ({
       ...prev,
       educationLevel: level,
-      educationSubject: '', 
+      educationSubject: '',
     }));
     setEducationSubjectsOptions(educationSubjects[level] || []);
     setError('');
@@ -98,22 +120,34 @@ const ProfessionalInformation = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const isFormValid = Object.values(formData).every(Boolean);
-    if (!isFormValid) {
+    const { gender, language, educationLevel, educationSubject } = formData;
+    if (!gender || !language || !educationLevel || !educationSubject) {
       setError('Please fill out all fields before submitting.');
       return;
     }
 
+    const userID = parseInt(userId, 10);
+
+    const education = `${educationLevel} - ${educationSubject}`;
+
+    const payload = {
+      userID,
+      gender,
+      education,
+      language
+    };
+
     try {
-      const response = await fetch('https://your-api-url/api/submit', {
+      setLoading(true); 
+      const response = await fetch('https://skillhub.runasp.net/api/freelancer/add_Freelancer_information', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(payload),
       });
 
-      if (!response.ok) {
+      if (response.data === true) {
         const errorData = await response.json();
         throw new Error(errorData.message || 'Submission failed.');
       }
@@ -126,25 +160,30 @@ const ProfessionalInformation = () => {
         educationLevel: '',
         educationSubject: '',
       });
-      navigate('/manage_gig');
       setEducationSubjectsOptions([]);
+      navigate('/freelancer/manage_gig');
     } catch (err) {
       console.error('Error submitting:', err.message);
       setError(err.message || 'An unexpected error occurred.');
+    } finally {
+      setLoading(false);
     }
   };
 
-  const isFormValid = formData.gender && formData.language && formData.educationLevel && formData.educationSubject;
+  const isFormValid =
+    formData.gender &&
+    formData.language &&
+    formData.educationLevel &&
+    formData.educationSubject;
 
   return (
-    <div className="max-w-2xl mx-auto p-6 rounded-lg bg-white ">
-     <h2 className="text-2xl font-bold mb-4">Professional Information</h2>
+    <div className="max-w-2xl mx-auto p-6 rounded-lg bg-white">
+      <h2 className="text-2xl font-bold mb-4">Professional Information</h2>
       <p className="text-gray-600 mb-6">
         Tell us a bit about your professional information. This information will be visible to all clients.
       </p>
 
       <form onSubmit={handleSubmit} className="space-y-6">
-
         {/* Gender */}
         <div>
           <label className="block text-sm font-medium text-gray-700">Gender</label>
@@ -216,19 +255,25 @@ const ProfessionalInformation = () => {
         )}
 
         {/* Submit Button */}
-        <div>
-          <button
-            type="submit"
-            disabled={!isFormValid}
-            className={`w-full py-2 px-4 rounded-md transition ${
-              isFormValid
-                ? 'bg-green-600 text-white hover:bg-green-700'
-                : 'bg-gray-300 text-gray-500 cursor-not-allowed'
-            }`}
-          >
-            Submit
-          </button>
-        </div>
+        <button
+  type="submit"
+  disabled={!isFormValid || loading}
+  className={`w-full py-2 px-4 flex justify-center items-center rounded-md transition ${
+    isFormValid && !loading
+      ? 'bg-green-600 text-white hover:bg-green-700'
+      : 'bg-gray-300 text-gray-500 cursor-not-allowed'
+  }`}
+>
+  {loading ? (
+    <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8z" />
+    </svg>
+  ) : (
+    'Submit'
+  )}
+</button>
+
       </form>
 
       {/* Feedback Messages */}

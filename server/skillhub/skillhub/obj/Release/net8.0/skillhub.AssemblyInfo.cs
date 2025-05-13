@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("skillhub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c52ba8eb247f20a3f8e13b42f089d8c53da3a99")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f943ee843578cb4824c2f12a4f7251d41c2d6ce2")]
 [assembly: System.Reflection.AssemblyProductAttribute("skillhub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("skillhub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

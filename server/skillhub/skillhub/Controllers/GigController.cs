@@ -21,17 +21,25 @@ namespace skillhub.Controllers
             this.gig = gig;
         }
         [HttpPost("add_Freelancer_Gig")]
-        public async Task<IActionResult> AddFreelancerGig(GigRequest gigRequest)
+        public async Task<IActionResult> AddFreelancerGig([FromForm] GigRequest gigRequest)
         {
             try
             {
-                var result = await gig.AddFreelancerGig(gigRequest);
-                return Ok(new { message = "Freelancer Information saved successfully", data = result });
+                var gigId = await gig.AddFreelancerGig(gigRequest);
 
+                return Ok(new
+                {
+                    message = "Freelancer Information saved successfully",
+                    gigId = gigId // Rename the key for clarity
+                });
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return BadRequest(new
+                {
+                    message = "Error saving freelancer information",
+                    error = ex.Message
+                });
             }
         }
         [HttpDelete("DeleteGig")]

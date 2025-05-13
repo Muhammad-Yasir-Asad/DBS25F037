@@ -56,9 +56,39 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "personalInformation",
-        "Type": "skillhub.CommonLayer.Model.Users.PersonalInformation",
-        "IsRequired": true
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Phone",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Country",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Bio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProfilePicture",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -80,6 +110,43 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "skillhub.Controllers.blockedController",
+    "Method": "BlockUser",
+    "RelativePath": "api/blocked/block_user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Request",
+        "Type": "skillhub.CommonLayer.Model.Blocked.BlockedRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.blockedController",
+    "Method": "unBlockUser",
+    "RelativePath": "api/blocked/Unblock_user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blockerid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "blockedid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "skillhub.Controllers.freelancerController",
     "Method": "AddFreelancerInformation",
     "RelativePath": "api/freelancer/add_Freelancer_information",
@@ -96,6 +163,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "skillhub.Controllers.freelancerController",
+    "Method": "FindFreelancers",
+    "RelativePath": "api/freelancer/Find_freelancer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "freelancerid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "skillhub.Controllers.GigController",
     "Method": "AddFreelancerGig",
     "RelativePath": "api/Gig/add_Freelancer_Gig",
@@ -104,9 +187,34 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "gigRequest",
-        "Type": "skillhub.CommonLayer.Model.Gig.GigRequest",
-        "IsRequired": true
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "gigPicture",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "gigvideo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -186,6 +294,86 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "skillhub.Controllers.GigPackageSkillController",
+    "Method": "UpdateGigPackageSkill",
+    "RelativePath": "api/GigPackageSkill",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gigPackageSkillRequest",
+        "Type": "skillhub.CommonLayer.Model.GigPackageSkills.GigPackageSkillRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.GigPackageSkillController",
+    "Method": "AddGigPackageSkill",
+    "RelativePath": "api/GigPackageSkill/add_GigPackageSkill",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gigPackageSkillRequest",
+        "Type": "skillhub.CommonLayer.Model.GigPackageSkills.GigPackageSkillRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.MessagesController",
+    "Method": "DeleteMessage",
+    "RelativePath": "api/Messages/deleteMessage/{messageId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "messageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.MessagesController",
+    "Method": "RetriveMessagebyReceiver",
+    "RelativePath": "api/Messages/Retrive_Msg_byReceiver",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Receiverid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.MessagesController",
+    "Method": "RetriveMessagebySender",
+    "RelativePath": "api/Messages/Retrive_Msg_bySender",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "senderid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "skillhub.Controllers.MessagesController",
     "Method": "SendMessage",
     "RelativePath": "api/Messages/send",
@@ -196,6 +384,225 @@
       {
         "Name": "request",
         "Type": "skillhub.CommonLayer.Model.Messages.MessageRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.orderController",
+    "Method": "DeleteOrder",
+    "RelativePath": "api/order/Delete_Order/{orderid}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.orderController",
+    "Method": "FindOrder",
+    "RelativePath": "api/order/Find_Order",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.orderController",
+    "Method": "PalceOrder",
+    "RelativePath": "api/order/Place_Order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "skillhub.CommonLayer.Model.Order.OrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.orderController",
+    "Method": "UpdateOrder",
+    "RelativePath": "api/order/Update_Order",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.reportController",
+    "Method": "BlockReport",
+    "RelativePath": "api/report/Blocked_Report",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.reportController",
+    "Method": "ClientsReport",
+    "RelativePath": "api/report/ClientsReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.reportController",
+    "Method": "CompletedOrderReport",
+    "RelativePath": "api/report/CompletedOrderReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "date",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.reportController",
+    "Method": "FreelacnerOrderReport",
+    "RelativePath": "api/report/FreelacnerOrderReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orders",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.reportController",
+    "Method": "FreelancerExperinceReport",
+    "RelativePath": "api/report/FreelancerExperinceReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "years",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.reportController",
+    "Method": "FreeLancerReport",
+    "RelativePath": "api/report/FreeLancerReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.reportController",
+    "Method": "GigReport",
+    "RelativePath": "api/report/GigReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.reportController",
+    "Method": "OrderCoinReport",
+    "RelativePath": "api/report/OrderCoinReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "coins",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.reportController",
+    "Method": "OrderReport",
+    "RelativePath": "api/report/OrderReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.reportController",
+    "Method": "PackageReport",
+    "RelativePath": "api/report/PackageReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.reportController",
+    "Method": "WalletReport",
+    "RelativePath": "api/report/WalletReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.SearchController",
+    "Method": "Search",
+    "RelativePath": "api/Search/search/{query}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

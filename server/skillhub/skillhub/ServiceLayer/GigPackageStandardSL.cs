@@ -18,7 +18,7 @@ namespace skillhub.ServiceLayer
             return "Standard";
         }
 
-        public override Task<bool> AddGigPackage(GigPackageRequest gigPackage)
+        public override Task<int> AddGigPackage(GigPackageRequest gigPackage)
         {
             GigPackageStandard gigPackageStandard = new GigPackageStandard(gigPackage.GigId, gigPackage.Price, gigPackage.DeliveryDays, gigPackage.Description);
             return gigPackageRL.AddGigPackage(gigPackageStandard, gigPackageStandard.GetPackageType());

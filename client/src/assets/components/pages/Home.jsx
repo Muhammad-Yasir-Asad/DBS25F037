@@ -9,6 +9,7 @@ const Home = () => {
     <Navbar />
     <HeroSection />
     <InfiniteLogoCarousel />
+    
     </>
     
 

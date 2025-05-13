@@ -21,7 +21,7 @@ const AuthForm = ({ isLogin, formOpen, toggleForm, setIsLogin }) => {
     setCheckingUsername(true);
     setUsernameAvailable(null);
     try {
-      const res = await fetch("https://skillhub.runasp.net/api/Users/check-username", {
+      const res = await fetch("https://skillhub.runasp.net/api/auth/check-username", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ userName: name }),
@@ -40,7 +40,7 @@ const AuthForm = ({ isLogin, formOpen, toggleForm, setIsLogin }) => {
     setCheckingEmail(true);
     setEmailAvailable(null);
     try {
-      const res = await fetch("https://skillhub.runasp.net/api/Users/check-email", {
+      const res = await fetch("https://skillhub.runasp.net/api/auth/check-email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email }),
@@ -86,7 +86,7 @@ const AuthForm = ({ isLogin, formOpen, toggleForm, setIsLogin }) => {
 
     try {
       const endpoint = isLogin ? "login" : "register";
-      const res = await fetch(`https://skillhub.runasp.net/api/Users/${endpoint}`, {
+      const res = await fetch(`https://skillhub.runasp.net/api/auth/${endpoint}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(userData),

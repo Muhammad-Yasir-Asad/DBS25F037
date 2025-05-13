@@ -11,10 +11,8 @@ namespace skillhub.Interfaces.IServiceLayer
 
         public Task<bool> CheckUserNameExists(string userName);
 
-        public Task<bool> AddPersonalInformation(PersonalInformation personal_Information);
-
-
-
-
+        public Task<bool> AddPersonalInformation(PersonalInformationRequest personal_Information);
+        public Task<User> findUser(int userid);
+        
     }
 }

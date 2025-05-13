@@ -6,6 +6,8 @@
         public string title { get; set; }
         public string description { get; set; }
         public int categoryId { get; set; }
+        public IFormFile gigPicture { get; set; }
+        public IFormFile gigvideo { get; set; }
 
     }
 

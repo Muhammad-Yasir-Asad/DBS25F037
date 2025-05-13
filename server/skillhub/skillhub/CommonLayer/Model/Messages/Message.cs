@@ -11,9 +11,15 @@
 
         public Message(int senderid, int receiverId, string messageText)
         {
-            this.senderId = senderid;
+            if (!Validate(messageText) && senderId != receiverId)
+            {
+                throw new ArgumentException("Message text must be between 5 and 255 characters.");
+            }
+
+            this.senderId = senderId;
             this.receiverId = receiverId;
             this.messageText = messageText;
+            this.isRead = false;
         }
         public Message(int messageid, int senderid, int receiverId, string messageText, DateTime sentTime, bool isRead)
         {
@@ -24,6 +30,14 @@
             this.sentTime = sentTime;
             this.isRead = isRead;
 
+        }
+        public static bool Validate(string messageText)
+        {
+            if (string.IsNullOrWhiteSpace(messageText) || messageText.Length < 5 || messageText.Length > 255)
+            {
+                return false;
+            }
+            return true;
         }
     }
 }

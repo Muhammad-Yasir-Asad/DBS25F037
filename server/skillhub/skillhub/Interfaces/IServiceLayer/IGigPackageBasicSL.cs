@@ -4,9 +4,8 @@ namespace skillhub.Interfaces.IServiceLayer
 {
     public interface IGigPackageBasicSL
     {
-        public Task<bool> AddGigPackage(GigPackageRequest gigPackage);
-
-        public Task<bool> UpdateGigPackage(GigPackageRequest gigPackage, int id);
+        Task<int> AddGigPackage(GigPackageRequest gigPackage); 
+        Task<bool> UpdateGigPackage(GigPackageRequest gigPackage, int id);
 
     }
 

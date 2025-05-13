@@ -4,7 +4,8 @@ import PersonalInformation from '../Freelancer/PersonalInfoForm';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ProfessionalInformation from '../Freelancer/ProfessionalInformation';
 import StartSelling from '../Freelancer/StartSelling';
-import GigAddForm from "../Freelancer/GigCreationForm"
+import GigAddForm from "../Freelancer/GigCreationForm";
+import FreelancerDashboard  from '../Freelancer/FreelancerDashboard';
 
 const Freelancer = () => {
   return (
@@ -12,6 +13,7 @@ const Freelancer = () => {
         
         <FreelancerNavbar />
       <Routes>
+        <Route path='/dashboard' element={<FreelancerDashboard />} />
         <Route path='/manage_gig' element={<GigAddForm />}/>
         <Route path='/start_selling' element={<StartSelling />} />
         <Route path='/personal_information' element={<PersonalInformation />} />

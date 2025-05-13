@@ -8,8 +8,6 @@ namespace skillhub.ServiceLayer
     {
         private readonly IGigPackageRL gigPackageRL;
 
-
-        // Constructor for setting package details manually (useful when data is coming from the controller)
         public GigPackageBasicSL(IGigPackageRL gigPackageRL)
         {
             this.gigPackageRL = gigPackageRL;
@@ -19,10 +17,15 @@ namespace skillhub.ServiceLayer
             return "Basic";
         }
 
-        public override Task<bool> AddGigPackage(GigPackageRequest gigPackage)
+        public override async Task<int> AddGigPackage(GigPackageRequest gigPackage)
         {
-            GigPackageBasic gigPackageBasic = new GigPackageBasic(gigPackage.GigId, gigPackage.Price, gigPackage.DeliveryDays, gigPackage.Description);
-            return gigPackageRL.AddGigPackage(gigPackageBasic, gigPackageBasic.GetPackageType());
+            GigPackageBasic gigPackageBasic = new GigPackageBasic(
+                gigPackage.GigId,
+                gigPackage.Price,
+                gigPackage.DeliveryDays,
+                gigPackage.Description
+            );
+            return await gigPackageRL.AddGigPackage(gigPackageBasic, "Basic");
         }
         public override Task<bool> UpdateGigPackage(GigPackageRequest gigPackage, int id)
         {

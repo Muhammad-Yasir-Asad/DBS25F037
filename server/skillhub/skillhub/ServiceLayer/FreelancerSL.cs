@@ -19,5 +19,9 @@ namespace skillhub.ServiceLayer
 
             return freelancer.AddFreelancerInformation(freelancerInformation);
         }
+        public Task<Freelancer> findFreelancer(int freelancerid)
+        {
+            return freelancer.findFreelancer(freelancerid);
+        }
     }
 }

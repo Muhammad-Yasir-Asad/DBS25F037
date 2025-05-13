@@ -1,12 +1,5275 @@
 {
   "Version": 1,
-  "Hash": "tZLOwN8GNPfIi0kwY6F+1WZ60SBrcHOcOY0+G+N0ctw=",
+  "Hash": "klHomjhFJIiMGcwth/t3OCfliJ9gkhDmpS7Bo66kLMQ=",
   "Source": "skillhub",
   "BasePath": "_content/skillhub",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "skillhub\\wwwroot",
+      "Source": "skillhub",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\009bf7e4-538a-4af0-b3e3-0ef3edfcc5a8.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/009bf7e4-538a-4af0-b3e3-0ef3edfcc5a8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zhksfqkqda",
+      "Integrity": "xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\009bf7e4-538a-4af0-b3e3-0ef3edfcc5a8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\0bc15a3c-a2f1-4c6c-8ce8-4dc553d4cb9a.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/0bc15a3c-a2f1-4c6c-8ce8-4dc553d4cb9a#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zhksfqkqda",
+      "Integrity": "xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\0bc15a3c-a2f1-4c6c-8ce8-4dc553d4cb9a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\0c6882af-a2a0-403d-a0ad-7dafe0f486b8.png",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/0c6882af-a2a0-403d-a0ad-7dafe0f486b8#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cy05375lan",
+      "Integrity": "FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\0c6882af-a2a0-403d-a0ad-7dafe0f486b8.png"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\102b845d-e525-4669-837d-a08579ae8bd5.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/102b845d-e525-4669-837d-a08579ae8bd5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "om2yrnje6d",
+      "Integrity": "MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\102b845d-e525-4669-837d-a08579ae8bd5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\10bbc0dc-342d-410e-9241-ee9c539a5d3c.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/10bbc0dc-342d-410e-9241-ee9c539a5d3c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zhksfqkqda",
+      "Integrity": "xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\10bbc0dc-342d-410e-9241-ee9c539a5d3c.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\1ba329f2-ebe3-48bd-8f91-67ccdb1c07da.png",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/1ba329f2-ebe3-48bd-8f91-67ccdb1c07da#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cy05375lan",
+      "Integrity": "FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\1ba329f2-ebe3-48bd-8f91-67ccdb1c07da.png"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\2154a07d-ff32-46eb-a1cb-2553775afade.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/2154a07d-ff32-46eb-a1cb-2553775afade#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zhksfqkqda",
+      "Integrity": "xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\2154a07d-ff32-46eb-a1cb-2553775afade.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\24052860-8ca1-4f20-839d-fbccb2a34897.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/24052860-8ca1-4f20-839d-fbccb2a34897#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "om2yrnje6d",
+      "Integrity": "MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\24052860-8ca1-4f20-839d-fbccb2a34897.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\29606799-0b64-4fec-a981-fdebb2845dd5.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/29606799-0b64-4fec-a981-fdebb2845dd5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zhksfqkqda",
+      "Integrity": "xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\29606799-0b64-4fec-a981-fdebb2845dd5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\4ebfe3e0-a937-4e89-836f-1f68a6d57ae2.png",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/4ebfe3e0-a937-4e89-836f-1f68a6d57ae2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cy05375lan",
+      "Integrity": "FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\4ebfe3e0-a937-4e89-836f-1f68a6d57ae2.png"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\506bc667-6093-4bcc-8175-95ca24eb33b8.png",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/506bc667-6093-4bcc-8175-95ca24eb33b8#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4udq9nstm6",
+      "Integrity": "jC2vJh+t+RxVVx0SoKKCEmdly2gEjPwaX7BgfgZz79Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\506bc667-6093-4bcc-8175-95ca24eb33b8.png"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\55deab3f-d018-4cac-8324-65dc0fa5cde2.png",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/55deab3f-d018-4cac-8324-65dc0fa5cde2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cy05375lan",
+      "Integrity": "FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\55deab3f-d018-4cac-8324-65dc0fa5cde2.png"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\581fc28b-932d-4db5-a134-3bd9cafa5ddd.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/581fc28b-932d-4db5-a134-3bd9cafa5ddd#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zhksfqkqda",
+      "Integrity": "xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\581fc28b-932d-4db5-a134-3bd9cafa5ddd.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\5d8c3b95-7138-4c14-9ef6-e185fda67827.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/5d8c3b95-7138-4c14-9ef6-e185fda67827#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "om2yrnje6d",
+      "Integrity": "MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\5d8c3b95-7138-4c14-9ef6-e185fda67827.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\6c7869ef-769c-4aae-bc82-0d9dbc4171f2.png",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/6c7869ef-769c-4aae-bc82-0d9dbc4171f2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4udq9nstm6",
+      "Integrity": "jC2vJh+t+RxVVx0SoKKCEmdly2gEjPwaX7BgfgZz79Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\6c7869ef-769c-4aae-bc82-0d9dbc4171f2.png"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\712b9726-35e1-49a6-acde-ca6750cd4682.png",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/712b9726-35e1-49a6-acde-ca6750cd4682#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "derrwumcbt",
+      "Integrity": "i4RzpIFkOxy191YZamlF7dZ8I5ablHwpAxzHMY9xh+k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\712b9726-35e1-49a6-acde-ca6750cd4682.png"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\8ca928c9-b2ad-42e8-8d78-e5f6b9b3c7db.png",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/8ca928c9-b2ad-42e8-8d78-e5f6b9b3c7db#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cy05375lan",
+      "Integrity": "FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\8ca928c9-b2ad-42e8-8d78-e5f6b9b3c7db.png"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\952badfd-642f-4f82-935a-41476953dffb.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/952badfd-642f-4f82-935a-41476953dffb#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "om2yrnje6d",
+      "Integrity": "MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\952badfd-642f-4f82-935a-41476953dffb.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\9b5f42f1-0f62-4c00-80e5-d22f90bfea18.png",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/9b5f42f1-0f62-4c00-80e5-d22f90bfea18#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cy05375lan",
+      "Integrity": "FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\9b5f42f1-0f62-4c00-80e5-d22f90bfea18.png"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\9f2cf0f3-a59d-4452-bf45-be4a2b3dc7b7.png",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/9f2cf0f3-a59d-4452-bf45-be4a2b3dc7b7#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2v9racpxvb",
+      "Integrity": "UstiJxsHVhaG9ALFdTSdyl73zX2DR2yqn5f4kIvvdYc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\9f2cf0f3-a59d-4452-bf45-be4a2b3dc7b7.png"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\a41883c1-4910-4452-b207-21cf13dd9b65.png",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/a41883c1-4910-4452-b207-21cf13dd9b65#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cy05375lan",
+      "Integrity": "FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\a41883c1-4910-4452-b207-21cf13dd9b65.png"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\a83d4569-e99a-43e2-bf4e-66801f7c3922.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/a83d4569-e99a-43e2-bf4e-66801f7c3922#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zhksfqkqda",
+      "Integrity": "xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\a83d4569-e99a-43e2-bf4e-66801f7c3922.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\afcd2305-c742-4da9-b961-7f5c59c7d2cb.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/afcd2305-c742-4da9-b961-7f5c59c7d2cb#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "om2yrnje6d",
+      "Integrity": "MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\afcd2305-c742-4da9-b961-7f5c59c7d2cb.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\be9006fc-16e2-4372-b54b-4bd54090026a.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/be9006fc-16e2-4372-b54b-4bd54090026a#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "om2yrnje6d",
+      "Integrity": "MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\be9006fc-16e2-4372-b54b-4bd54090026a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\c13e7dcc-5a51-41fb-92f3-76528e127517.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/c13e7dcc-5a51-41fb-92f3-76528e127517#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zhksfqkqda",
+      "Integrity": "xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\c13e7dcc-5a51-41fb-92f3-76528e127517.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\d21bb6ba-0b33-4762-8736-2cbad7cd6098.png",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/d21bb6ba-0b33-4762-8736-2cbad7cd6098#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cy05375lan",
+      "Integrity": "FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\d21bb6ba-0b33-4762-8736-2cbad7cd6098.png"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\d67aa192-2327-4cff-a6c3-1f055874119d.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/d67aa192-2327-4cff-a6c3-1f055874119d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zhksfqkqda",
+      "Integrity": "xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\d67aa192-2327-4cff-a6c3-1f055874119d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\dc070971-45b6-4a52-9957-e2865f992616.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/dc070971-45b6-4a52-9957-e2865f992616#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zhksfqkqda",
+      "Integrity": "xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\dc070971-45b6-4a52-9957-e2865f992616.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\ea4aa59a-3e1e-4129-85af-76b6b1417a26.png",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/ea4aa59a-3e1e-4129-85af-76b6b1417a26#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cy05375lan",
+      "Integrity": "FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ea4aa59a-3e1e-4129-85af-76b6b1417a26.png"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\f1c28eff-50da-49cb-9d47-53b45fe3b81a.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/f1c28eff-50da-49cb-9d47-53b45fe3b81a#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zhksfqkqda",
+      "Integrity": "xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f1c28eff-50da-49cb-9d47-53b45fe3b81a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\f4ef52f6-bf95-421f-8b27-38da06d05c55.png",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/f4ef52f6-bf95-421f-8b27-38da06d05c55#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "derrwumcbt",
+      "Integrity": "i4RzpIFkOxy191YZamlF7dZ8I5ablHwpAxzHMY9xh+k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f4ef52f6-bf95-421f-8b27-38da06d05c55.png"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\f6cbc2e4-960a-44ef-a041-d17b11b0e7bd.png",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/f6cbc2e4-960a-44ef-a041-d17b11b0e7bd#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cy05375lan",
+      "Integrity": "FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f6cbc2e4-960a-44ef-a041-d17b11b0e7bd.png"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\fcdfbb39-25c8-4be0-a786-44aa442b0db2.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Images/fcdfbb39-25c8-4be0-a786-44aa442b0db2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "om2yrnje6d",
+      "Integrity": "MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\fcdfbb39-25c8-4be0-a786-44aa442b0db2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\0a19f56a-bf2b-459a-83d2-8090b720bc13.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Videos/0a19f56a-bf2b-459a-83d2-8090b720bc13#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "om2yrnje6d",
+      "Integrity": "MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\0a19f56a-bf2b-459a-83d2-8090b720bc13.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\0e670ee0-cbce-4fb6-af14-c2a32735c3fa.mp4",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Videos/0e670ee0-cbce-4fb6-af14-c2a32735c3fa#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1fjp4ffcqs",
+      "Integrity": "jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\0e670ee0-cbce-4fb6-af14-c2a32735c3fa.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\21eac139-5d4c-4a7f-bc3f-fa38c427199f.mp4",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Videos/21eac139-5d4c-4a7f-bc3f-fa38c427199f#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1fjp4ffcqs",
+      "Integrity": "jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\21eac139-5d4c-4a7f-bc3f-fa38c427199f.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\2d427226-cd62-4bba-9401-104b7798727a.png",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Videos/2d427226-cd62-4bba-9401-104b7798727a#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "derrwumcbt",
+      "Integrity": "i4RzpIFkOxy191YZamlF7dZ8I5ablHwpAxzHMY9xh+k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\2d427226-cd62-4bba-9401-104b7798727a.png"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\4192cbad-697f-42e4-a87a-e24f0ec5cd90.mp4",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Videos/4192cbad-697f-42e4-a87a-e24f0ec5cd90#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1fjp4ffcqs",
+      "Integrity": "jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\4192cbad-697f-42e4-a87a-e24f0ec5cd90.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\4b48bbca-477a-421e-b102-aff7c0758989.jpg",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Videos/4b48bbca-477a-421e-b102-aff7c0758989#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "om2yrnje6d",
+      "Integrity": "MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\4b48bbca-477a-421e-b102-aff7c0758989.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\55b59ebd-7935-4256-8f57-cfce0fa8e1d0.mp4",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Videos/55b59ebd-7935-4256-8f57-cfce0fa8e1d0#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1fjp4ffcqs",
+      "Integrity": "jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\55b59ebd-7935-4256-8f57-cfce0fa8e1d0.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\5c06d799-94aa-4efe-bc22-01579cdae3d4.mp4",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Videos/5c06d799-94aa-4efe-bc22-01579cdae3d4#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1fjp4ffcqs",
+      "Integrity": "jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\5c06d799-94aa-4efe-bc22-01579cdae3d4.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\6bbe130a-3479-4553-ad3b-557b260446ee.mp4",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Videos/6bbe130a-3479-4553-ad3b-557b260446ee#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1fjp4ffcqs",
+      "Integrity": "jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\6bbe130a-3479-4553-ad3b-557b260446ee.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\6e63449b-d4d2-4dc4-a55e-1fc7e28e2196.mp4",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Videos/6e63449b-d4d2-4dc4-a55e-1fc7e28e2196#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1fjp4ffcqs",
+      "Integrity": "jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\6e63449b-d4d2-4dc4-a55e-1fc7e28e2196.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\93b1deab-687f-4494-a7d0-9b52af9a91a9.mp4",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Videos/93b1deab-687f-4494-a7d0-9b52af9a91a9#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1fjp4ffcqs",
+      "Integrity": "jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\93b1deab-687f-4494-a7d0-9b52af9a91a9.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\b51981f2-9328-4db3-8952-6abe33e8e1d4.mp4",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Videos/b51981f2-9328-4db3-8952-6abe33e8e1d4#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1fjp4ffcqs",
+      "Integrity": "jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\b51981f2-9328-4db3-8952-6abe33e8e1d4.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\c6cf578f-226d-4dc7-b5b3-b9c5b7288288.mp4",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Videos/c6cf578f-226d-4dc7-b5b3-b9c5b7288288#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1fjp4ffcqs",
+      "Integrity": "jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\c6cf578f-226d-4dc7-b5b3-b9c5b7288288.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\cd115dd5-b388-46cb-97da-b5d2ea683d0a.mp4",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Videos/cd115dd5-b388-46cb-97da-b5d2ea683d0a#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1fjp4ffcqs",
+      "Integrity": "jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\cd115dd5-b388-46cb-97da-b5d2ea683d0a.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\e6026692-164f-4ed3-b6c3-64d40e9e3d3e.mp4",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Videos/e6026692-164f-4ed3-b6c3-64d40e9e3d3e#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1fjp4ffcqs",
+      "Integrity": "jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\e6026692-164f-4ed3-b6c3-64d40e9e3d3e.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\e97e5231-c311-43a5-a8c8-6eb540ebfa98.mp4",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Videos/e97e5231-c311-43a5-a8c8-6eb540ebfa98#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1fjp4ffcqs",
+      "Integrity": "jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\e97e5231-c311-43a5-a8c8-6eb540ebfa98.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\fe6b1e02-1186-4e50-8151-516d1a9350db.mp4",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Videos/fe6b1e02-1186-4e50-8151-516d1a9350db#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1fjp4ffcqs",
+      "Integrity": "jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\fe6b1e02-1186-4e50-8151-516d1a9350db.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\ff182263-a47c-4bcb-8f2b-dc1e826d89c2.mp4",
+      "SourceId": "skillhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\",
+      "BasePath": "_content/skillhub",
+      "RelativePath": "Videos/ff182263-a47c-4bcb-8f2b-dc1e826d89c2#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1fjp4ffcqs",
+      "Integrity": "jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\ff182263-a47c-4bcb-8f2b-dc1e826d89c2.mp4"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Images/009bf7e4-538a-4af0-b3e3-0ef3edfcc5a8.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\009bf7e4-538a-4af0-b3e3-0ef3edfcc5a8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 22:59:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/009bf7e4-538a-4af0-b3e3-0ef3edfcc5a8.zhksfqkqda.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\009bf7e4-538a-4af0-b3e3-0ef3edfcc5a8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 22:59:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zhksfqkqda"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/009bf7e4-538a-4af0-b3e3-0ef3edfcc5a8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/0bc15a3c-a2f1-4c6c-8ce8-4dc553d4cb9a.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\0bc15a3c-a2f1-4c6c-8ce8-4dc553d4cb9a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 22:40:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/0bc15a3c-a2f1-4c6c-8ce8-4dc553d4cb9a.zhksfqkqda.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\0bc15a3c-a2f1-4c6c-8ce8-4dc553d4cb9a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 22:40:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zhksfqkqda"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/0bc15a3c-a2f1-4c6c-8ce8-4dc553d4cb9a.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/0c6882af-a2a0-403d-a0ad-7dafe0f486b8.cy05375lan.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\0c6882af-a2a0-403d-a0ad-7dafe0f486b8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 21:03:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cy05375lan"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/0c6882af-a2a0-403d-a0ad-7dafe0f486b8.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/0c6882af-a2a0-403d-a0ad-7dafe0f486b8.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\0c6882af-a2a0-403d-a0ad-7dafe0f486b8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 21:03:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/102b845d-e525-4669-837d-a08579ae8bd5.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\102b845d-e525-4669-837d-a08579ae8bd5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 22:24:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/102b845d-e525-4669-837d-a08579ae8bd5.om2yrnje6d.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\102b845d-e525-4669-837d-a08579ae8bd5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 22:24:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "om2yrnje6d"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/102b845d-e525-4669-837d-a08579ae8bd5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/10bbc0dc-342d-410e-9241-ee9c539a5d3c.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\10bbc0dc-342d-410e-9241-ee9c539a5d3c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 22:41:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/10bbc0dc-342d-410e-9241-ee9c539a5d3c.zhksfqkqda.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\10bbc0dc-342d-410e-9241-ee9c539a5d3c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 22:41:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zhksfqkqda"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/10bbc0dc-342d-410e-9241-ee9c539a5d3c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/1ba329f2-ebe3-48bd-8f91-67ccdb1c07da.cy05375lan.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\1ba329f2-ebe3-48bd-8f91-67ccdb1c07da.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:20:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cy05375lan"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/1ba329f2-ebe3-48bd-8f91-67ccdb1c07da.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/1ba329f2-ebe3-48bd-8f91-67ccdb1c07da.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\1ba329f2-ebe3-48bd-8f91-67ccdb1c07da.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:20:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/2154a07d-ff32-46eb-a1cb-2553775afade.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\2154a07d-ff32-46eb-a1cb-2553775afade.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 23:00:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/2154a07d-ff32-46eb-a1cb-2553775afade.zhksfqkqda.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\2154a07d-ff32-46eb-a1cb-2553775afade.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 23:00:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zhksfqkqda"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/2154a07d-ff32-46eb-a1cb-2553775afade.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/24052860-8ca1-4f20-839d-fbccb2a34897.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\24052860-8ca1-4f20-839d-fbccb2a34897.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 18:59:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/24052860-8ca1-4f20-839d-fbccb2a34897.om2yrnje6d.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\24052860-8ca1-4f20-839d-fbccb2a34897.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 18:59:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "om2yrnje6d"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/24052860-8ca1-4f20-839d-fbccb2a34897.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/29606799-0b64-4fec-a981-fdebb2845dd5.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\29606799-0b64-4fec-a981-fdebb2845dd5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 22:59:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/29606799-0b64-4fec-a981-fdebb2845dd5.zhksfqkqda.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\29606799-0b64-4fec-a981-fdebb2845dd5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 22:59:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zhksfqkqda"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/29606799-0b64-4fec-a981-fdebb2845dd5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/4ebfe3e0-a937-4e89-836f-1f68a6d57ae2.cy05375lan.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\4ebfe3e0-a937-4e89-836f-1f68a6d57ae2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:19:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cy05375lan"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/4ebfe3e0-a937-4e89-836f-1f68a6d57ae2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/4ebfe3e0-a937-4e89-836f-1f68a6d57ae2.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\4ebfe3e0-a937-4e89-836f-1f68a6d57ae2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:19:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/506bc667-6093-4bcc-8175-95ca24eb33b8.4udq9nstm6.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\506bc667-6093-4bcc-8175-95ca24eb33b8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jC2vJh+t+RxVVx0SoKKCEmdly2gEjPwaX7BgfgZz79Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 08:39:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4udq9nstm6"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/506bc667-6093-4bcc-8175-95ca24eb33b8.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jC2vJh+t+RxVVx0SoKKCEmdly2gEjPwaX7BgfgZz79Q="
+        }
+      ]
+    },
+    {
+      "Route": "Images/506bc667-6093-4bcc-8175-95ca24eb33b8.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\506bc667-6093-4bcc-8175-95ca24eb33b8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jC2vJh+t+RxVVx0SoKKCEmdly2gEjPwaX7BgfgZz79Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 08:39:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jC2vJh+t+RxVVx0SoKKCEmdly2gEjPwaX7BgfgZz79Q="
+        }
+      ]
+    },
+    {
+      "Route": "Images/55deab3f-d018-4cac-8324-65dc0fa5cde2.cy05375lan.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\55deab3f-d018-4cac-8324-65dc0fa5cde2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:20:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cy05375lan"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/55deab3f-d018-4cac-8324-65dc0fa5cde2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/55deab3f-d018-4cac-8324-65dc0fa5cde2.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\55deab3f-d018-4cac-8324-65dc0fa5cde2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:20:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/581fc28b-932d-4db5-a134-3bd9cafa5ddd.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\581fc28b-932d-4db5-a134-3bd9cafa5ddd.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 22:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/581fc28b-932d-4db5-a134-3bd9cafa5ddd.zhksfqkqda.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\581fc28b-932d-4db5-a134-3bd9cafa5ddd.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 22:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zhksfqkqda"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/581fc28b-932d-4db5-a134-3bd9cafa5ddd.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/5d8c3b95-7138-4c14-9ef6-e185fda67827.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\5d8c3b95-7138-4c14-9ef6-e185fda67827.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 22:19:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/5d8c3b95-7138-4c14-9ef6-e185fda67827.om2yrnje6d.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\5d8c3b95-7138-4c14-9ef6-e185fda67827.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 22:19:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "om2yrnje6d"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/5d8c3b95-7138-4c14-9ef6-e185fda67827.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/6c7869ef-769c-4aae-bc82-0d9dbc4171f2.4udq9nstm6.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\6c7869ef-769c-4aae-bc82-0d9dbc4171f2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jC2vJh+t+RxVVx0SoKKCEmdly2gEjPwaX7BgfgZz79Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 08:40:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4udq9nstm6"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/6c7869ef-769c-4aae-bc82-0d9dbc4171f2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jC2vJh+t+RxVVx0SoKKCEmdly2gEjPwaX7BgfgZz79Q="
+        }
+      ]
+    },
+    {
+      "Route": "Images/6c7869ef-769c-4aae-bc82-0d9dbc4171f2.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\6c7869ef-769c-4aae-bc82-0d9dbc4171f2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jC2vJh+t+RxVVx0SoKKCEmdly2gEjPwaX7BgfgZz79Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 08:40:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jC2vJh+t+RxVVx0SoKKCEmdly2gEjPwaX7BgfgZz79Q="
+        }
+      ]
+    },
+    {
+      "Route": "Images/712b9726-35e1-49a6-acde-ca6750cd4682.derrwumcbt.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\712b9726-35e1-49a6-acde-ca6750cd4682.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i4RzpIFkOxy191YZamlF7dZ8I5ablHwpAxzHMY9xh+k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 08:37:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "derrwumcbt"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/712b9726-35e1-49a6-acde-ca6750cd4682.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-i4RzpIFkOxy191YZamlF7dZ8I5ablHwpAxzHMY9xh+k="
+        }
+      ]
+    },
+    {
+      "Route": "Images/712b9726-35e1-49a6-acde-ca6750cd4682.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\712b9726-35e1-49a6-acde-ca6750cd4682.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i4RzpIFkOxy191YZamlF7dZ8I5ablHwpAxzHMY9xh+k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 08:37:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i4RzpIFkOxy191YZamlF7dZ8I5ablHwpAxzHMY9xh+k="
+        }
+      ]
+    },
+    {
+      "Route": "Images/8ca928c9-b2ad-42e8-8d78-e5f6b9b3c7db.cy05375lan.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\8ca928c9-b2ad-42e8-8d78-e5f6b9b3c7db.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:13:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cy05375lan"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/8ca928c9-b2ad-42e8-8d78-e5f6b9b3c7db.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/8ca928c9-b2ad-42e8-8d78-e5f6b9b3c7db.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\8ca928c9-b2ad-42e8-8d78-e5f6b9b3c7db.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:13:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/952badfd-642f-4f82-935a-41476953dffb.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\952badfd-642f-4f82-935a-41476953dffb.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 18:56:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/952badfd-642f-4f82-935a-41476953dffb.om2yrnje6d.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\952badfd-642f-4f82-935a-41476953dffb.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 18:56:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "om2yrnje6d"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/952badfd-642f-4f82-935a-41476953dffb.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/9b5f42f1-0f62-4c00-80e5-d22f90bfea18.cy05375lan.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\9b5f42f1-0f62-4c00-80e5-d22f90bfea18.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 21:09:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cy05375lan"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/9b5f42f1-0f62-4c00-80e5-d22f90bfea18.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/9b5f42f1-0f62-4c00-80e5-d22f90bfea18.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\9b5f42f1-0f62-4c00-80e5-d22f90bfea18.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 21:09:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/9f2cf0f3-a59d-4452-bf45-be4a2b3dc7b7.2v9racpxvb.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\9f2cf0f3-a59d-4452-bf45-be4a2b3dc7b7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52953"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UstiJxsHVhaG9ALFdTSdyl73zX2DR2yqn5f4kIvvdYc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 11:16:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2v9racpxvb"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/9f2cf0f3-a59d-4452-bf45-be4a2b3dc7b7.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UstiJxsHVhaG9ALFdTSdyl73zX2DR2yqn5f4kIvvdYc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/9f2cf0f3-a59d-4452-bf45-be4a2b3dc7b7.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\9f2cf0f3-a59d-4452-bf45-be4a2b3dc7b7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52953"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UstiJxsHVhaG9ALFdTSdyl73zX2DR2yqn5f4kIvvdYc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 11:16:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UstiJxsHVhaG9ALFdTSdyl73zX2DR2yqn5f4kIvvdYc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/a41883c1-4910-4452-b207-21cf13dd9b65.cy05375lan.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\a41883c1-4910-4452-b207-21cf13dd9b65.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:20:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cy05375lan"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/a41883c1-4910-4452-b207-21cf13dd9b65.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/a41883c1-4910-4452-b207-21cf13dd9b65.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\a41883c1-4910-4452-b207-21cf13dd9b65.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:20:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/a83d4569-e99a-43e2-bf4e-66801f7c3922.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\a83d4569-e99a-43e2-bf4e-66801f7c3922.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 22:07:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/a83d4569-e99a-43e2-bf4e-66801f7c3922.zhksfqkqda.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\a83d4569-e99a-43e2-bf4e-66801f7c3922.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 22:07:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zhksfqkqda"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/a83d4569-e99a-43e2-bf4e-66801f7c3922.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/afcd2305-c742-4da9-b961-7f5c59c7d2cb.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\afcd2305-c742-4da9-b961-7f5c59c7d2cb.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 09:16:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/afcd2305-c742-4da9-b961-7f5c59c7d2cb.om2yrnje6d.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\afcd2305-c742-4da9-b961-7f5c59c7d2cb.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 09:16:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "om2yrnje6d"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/afcd2305-c742-4da9-b961-7f5c59c7d2cb.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/be9006fc-16e2-4372-b54b-4bd54090026a.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\be9006fc-16e2-4372-b54b-4bd54090026a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 22:19:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/be9006fc-16e2-4372-b54b-4bd54090026a.om2yrnje6d.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\be9006fc-16e2-4372-b54b-4bd54090026a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 22:19:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "om2yrnje6d"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/be9006fc-16e2-4372-b54b-4bd54090026a.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/c13e7dcc-5a51-41fb-92f3-76528e127517.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\c13e7dcc-5a51-41fb-92f3-76528e127517.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 23:02:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/c13e7dcc-5a51-41fb-92f3-76528e127517.zhksfqkqda.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\c13e7dcc-5a51-41fb-92f3-76528e127517.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 23:02:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zhksfqkqda"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/c13e7dcc-5a51-41fb-92f3-76528e127517.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/d21bb6ba-0b33-4762-8736-2cbad7cd6098.cy05375lan.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\d21bb6ba-0b33-4762-8736-2cbad7cd6098.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:20:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cy05375lan"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/d21bb6ba-0b33-4762-8736-2cbad7cd6098.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/d21bb6ba-0b33-4762-8736-2cbad7cd6098.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\d21bb6ba-0b33-4762-8736-2cbad7cd6098.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:20:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/d67aa192-2327-4cff-a6c3-1f055874119d.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\d67aa192-2327-4cff-a6c3-1f055874119d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 22:45:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/d67aa192-2327-4cff-a6c3-1f055874119d.zhksfqkqda.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\d67aa192-2327-4cff-a6c3-1f055874119d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 22:45:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zhksfqkqda"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/d67aa192-2327-4cff-a6c3-1f055874119d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/dc070971-45b6-4a52-9957-e2865f992616.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\dc070971-45b6-4a52-9957-e2865f992616.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 22:59:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/dc070971-45b6-4a52-9957-e2865f992616.zhksfqkqda.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\dc070971-45b6-4a52-9957-e2865f992616.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 22:59:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zhksfqkqda"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/dc070971-45b6-4a52-9957-e2865f992616.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ea4aa59a-3e1e-4129-85af-76b6b1417a26.cy05375lan.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\ea4aa59a-3e1e-4129-85af-76b6b1417a26.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:57:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cy05375lan"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/ea4aa59a-3e1e-4129-85af-76b6b1417a26.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ea4aa59a-3e1e-4129-85af-76b6b1417a26.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\ea4aa59a-3e1e-4129-85af-76b6b1417a26.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:57:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/f1c28eff-50da-49cb-9d47-53b45fe3b81a.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\f1c28eff-50da-49cb-9d47-53b45fe3b81a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 23:00:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/f1c28eff-50da-49cb-9d47-53b45fe3b81a.zhksfqkqda.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\f1c28eff-50da-49cb-9d47-53b45fe3b81a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 23:00:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zhksfqkqda"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/f1c28eff-50da-49cb-9d47-53b45fe3b81a.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xy2eipnmxh5CzlegVkFHR5//WQ5Yp3+AiOE7iDxANOg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/f4ef52f6-bf95-421f-8b27-38da06d05c55.derrwumcbt.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\f4ef52f6-bf95-421f-8b27-38da06d05c55.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i4RzpIFkOxy191YZamlF7dZ8I5ablHwpAxzHMY9xh+k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 08:38:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "derrwumcbt"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/f4ef52f6-bf95-421f-8b27-38da06d05c55.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-i4RzpIFkOxy191YZamlF7dZ8I5ablHwpAxzHMY9xh+k="
+        }
+      ]
+    },
+    {
+      "Route": "Images/f4ef52f6-bf95-421f-8b27-38da06d05c55.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\f4ef52f6-bf95-421f-8b27-38da06d05c55.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i4RzpIFkOxy191YZamlF7dZ8I5ablHwpAxzHMY9xh+k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 08:38:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i4RzpIFkOxy191YZamlF7dZ8I5ablHwpAxzHMY9xh+k="
+        }
+      ]
+    },
+    {
+      "Route": "Images/f6cbc2e4-960a-44ef-a041-d17b11b0e7bd.cy05375lan.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\f6cbc2e4-960a-44ef-a041-d17b11b0e7bd.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:21:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cy05375lan"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/f6cbc2e4-960a-44ef-a041-d17b11b0e7bd.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/f6cbc2e4-960a-44ef-a041-d17b11b0e7bd.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\f6cbc2e4-960a-44ef-a041-d17b11b0e7bd.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:21:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIO3Cb1DvVpqPOSl/dt10zOuJMuxMPVIXBcN6ObsDcs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/fcdfbb39-25c8-4be0-a786-44aa442b0db2.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\fcdfbb39-25c8-4be0-a786-44aa442b0db2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 09:13:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/fcdfbb39-25c8-4be0-a786-44aa442b0db2.om2yrnje6d.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Images\\fcdfbb39-25c8-4be0-a786-44aa442b0db2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 09:13:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "om2yrnje6d"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/fcdfbb39-25c8-4be0-a786-44aa442b0db2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/0a19f56a-bf2b-459a-83d2-8090b720bc13.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\0a19f56a-bf2b-459a-83d2-8090b720bc13.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 09:13:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/0a19f56a-bf2b-459a-83d2-8090b720bc13.om2yrnje6d.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\0a19f56a-bf2b-459a-83d2-8090b720bc13.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 09:13:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "om2yrnje6d"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/0a19f56a-bf2b-459a-83d2-8090b720bc13.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/0e670ee0-cbce-4fb6-af14-c2a32735c3fa.1fjp4ffcqs.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\0e670ee0-cbce-4fb6-af14-c2a32735c3fa.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 21:09:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1fjp4ffcqs"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/0e670ee0-cbce-4fb6-af14-c2a32735c3fa.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/0e670ee0-cbce-4fb6-af14-c2a32735c3fa.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\0e670ee0-cbce-4fb6-af14-c2a32735c3fa.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 21:09:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/21eac139-5d4c-4a7f-bc3f-fa38c427199f.1fjp4ffcqs.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\21eac139-5d4c-4a7f-bc3f-fa38c427199f.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 22:19:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1fjp4ffcqs"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/21eac139-5d4c-4a7f-bc3f-fa38c427199f.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/21eac139-5d4c-4a7f-bc3f-fa38c427199f.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\21eac139-5d4c-4a7f-bc3f-fa38c427199f.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 22:19:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/2d427226-cd62-4bba-9401-104b7798727a.derrwumcbt.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\2d427226-cd62-4bba-9401-104b7798727a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i4RzpIFkOxy191YZamlF7dZ8I5ablHwpAxzHMY9xh+k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 11:16:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "derrwumcbt"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/2d427226-cd62-4bba-9401-104b7798727a.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-i4RzpIFkOxy191YZamlF7dZ8I5ablHwpAxzHMY9xh+k="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/2d427226-cd62-4bba-9401-104b7798727a.png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\2d427226-cd62-4bba-9401-104b7798727a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i4RzpIFkOxy191YZamlF7dZ8I5ablHwpAxzHMY9xh+k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 11:16:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i4RzpIFkOxy191YZamlF7dZ8I5ablHwpAxzHMY9xh+k="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/4192cbad-697f-42e4-a87a-e24f0ec5cd90.1fjp4ffcqs.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\4192cbad-697f-42e4-a87a-e24f0ec5cd90.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 18:59:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1fjp4ffcqs"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/4192cbad-697f-42e4-a87a-e24f0ec5cd90.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/4192cbad-697f-42e4-a87a-e24f0ec5cd90.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\4192cbad-697f-42e4-a87a-e24f0ec5cd90.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 18:59:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/4b48bbca-477a-421e-b102-aff7c0758989.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\4b48bbca-477a-421e-b102-aff7c0758989.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 09:16:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/4b48bbca-477a-421e-b102-aff7c0758989.om2yrnje6d.jpg",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\4b48bbca-477a-421e-b102-aff7c0758989.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 09:16:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "om2yrnje6d"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/4b48bbca-477a-421e-b102-aff7c0758989.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MFcP9F6gVvjVA6wiXtLNQLA+U/Jao0kxw+8vI9NlUUM="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/55b59ebd-7935-4256-8f57-cfce0fa8e1d0.1fjp4ffcqs.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\55b59ebd-7935-4256-8f57-cfce0fa8e1d0.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:19:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1fjp4ffcqs"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/55b59ebd-7935-4256-8f57-cfce0fa8e1d0.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/55b59ebd-7935-4256-8f57-cfce0fa8e1d0.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\55b59ebd-7935-4256-8f57-cfce0fa8e1d0.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:19:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/5c06d799-94aa-4efe-bc22-01579cdae3d4.1fjp4ffcqs.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\5c06d799-94aa-4efe-bc22-01579cdae3d4.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 22:24:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1fjp4ffcqs"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/5c06d799-94aa-4efe-bc22-01579cdae3d4.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/5c06d799-94aa-4efe-bc22-01579cdae3d4.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\5c06d799-94aa-4efe-bc22-01579cdae3d4.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 22:24:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/6bbe130a-3479-4553-ad3b-557b260446ee.1fjp4ffcqs.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\6bbe130a-3479-4553-ad3b-557b260446ee.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:21:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1fjp4ffcqs"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/6bbe130a-3479-4553-ad3b-557b260446ee.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/6bbe130a-3479-4553-ad3b-557b260446ee.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\6bbe130a-3479-4553-ad3b-557b260446ee.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:21:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/6e63449b-d4d2-4dc4-a55e-1fc7e28e2196.1fjp4ffcqs.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\6e63449b-d4d2-4dc4-a55e-1fc7e28e2196.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 18:56:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1fjp4ffcqs"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/6e63449b-d4d2-4dc4-a55e-1fc7e28e2196.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/6e63449b-d4d2-4dc4-a55e-1fc7e28e2196.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\6e63449b-d4d2-4dc4-a55e-1fc7e28e2196.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 18:56:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/93b1deab-687f-4494-a7d0-9b52af9a91a9.1fjp4ffcqs.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\93b1deab-687f-4494-a7d0-9b52af9a91a9.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:20:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1fjp4ffcqs"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/93b1deab-687f-4494-a7d0-9b52af9a91a9.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/93b1deab-687f-4494-a7d0-9b52af9a91a9.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\93b1deab-687f-4494-a7d0-9b52af9a91a9.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:20:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/b51981f2-9328-4db3-8952-6abe33e8e1d4.1fjp4ffcqs.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\b51981f2-9328-4db3-8952-6abe33e8e1d4.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:20:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1fjp4ffcqs"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/b51981f2-9328-4db3-8952-6abe33e8e1d4.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/b51981f2-9328-4db3-8952-6abe33e8e1d4.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\b51981f2-9328-4db3-8952-6abe33e8e1d4.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:20:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/c6cf578f-226d-4dc7-b5b3-b9c5b7288288.1fjp4ffcqs.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\c6cf578f-226d-4dc7-b5b3-b9c5b7288288.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:20:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1fjp4ffcqs"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/c6cf578f-226d-4dc7-b5b3-b9c5b7288288.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/c6cf578f-226d-4dc7-b5b3-b9c5b7288288.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\c6cf578f-226d-4dc7-b5b3-b9c5b7288288.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:20:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/cd115dd5-b388-46cb-97da-b5d2ea683d0a.1fjp4ffcqs.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\cd115dd5-b388-46cb-97da-b5d2ea683d0a.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 21:03:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1fjp4ffcqs"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/cd115dd5-b388-46cb-97da-b5d2ea683d0a.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/cd115dd5-b388-46cb-97da-b5d2ea683d0a.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\cd115dd5-b388-46cb-97da-b5d2ea683d0a.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 21:03:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/e6026692-164f-4ed3-b6c3-64d40e9e3d3e.1fjp4ffcqs.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\e6026692-164f-4ed3-b6c3-64d40e9e3d3e.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:21:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1fjp4ffcqs"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/e6026692-164f-4ed3-b6c3-64d40e9e3d3e.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/e6026692-164f-4ed3-b6c3-64d40e9e3d3e.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\e6026692-164f-4ed3-b6c3-64d40e9e3d3e.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:21:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/e97e5231-c311-43a5-a8c8-6eb540ebfa98.1fjp4ffcqs.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\e97e5231-c311-43a5-a8c8-6eb540ebfa98.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:57:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1fjp4ffcqs"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/e97e5231-c311-43a5-a8c8-6eb540ebfa98.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/e97e5231-c311-43a5-a8c8-6eb540ebfa98.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\e97e5231-c311-43a5-a8c8-6eb540ebfa98.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:57:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/fe6b1e02-1186-4e50-8151-516d1a9350db.1fjp4ffcqs.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\fe6b1e02-1186-4e50-8151-516d1a9350db.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:13:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1fjp4ffcqs"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/fe6b1e02-1186-4e50-8151-516d1a9350db.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/fe6b1e02-1186-4e50-8151-516d1a9350db.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\fe6b1e02-1186-4e50-8151-516d1a9350db.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 20:13:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/ff182263-a47c-4bcb-8f2b-dc1e826d89c2.1fjp4ffcqs.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\ff182263-a47c-4bcb-8f2b-dc1e826d89c2.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 22:19:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1fjp4ffcqs"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/ff182263-a47c-4bcb-8f2b-dc1e826d89c2.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/ff182263-a47c-4bcb-8f2b-dc1e826d89c2.mp4",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\Smemster_2\\DataBase\\FinalProject\\server\\skillhub\\skillhub\\wwwroot\\Videos\\ff182263-a47c-4bcb-8f2b-dc1e826d89c2.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10207010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 22:19:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jT6fVGXfpcR5dZOn0PvErRRQn+7VVrwPd/SEt3HD8Nw="
+        }
+      ]
+    }
+  ]
 }

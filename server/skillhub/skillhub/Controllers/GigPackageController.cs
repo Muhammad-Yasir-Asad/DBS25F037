@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using skillhub.CommonLayer.Model.GigPackages;
 using skillhub.Interfaces.IServiceLayer;
 using skillhub.Interfaces.IRepositryLayer;
+using skillhub.CommonLayer.Model.GigPackages;
 
 namespace skillhub.Controllers
 {
@@ -24,34 +24,29 @@ namespace skillhub.Controllers
         [HttpPost("add")]
         public async Task<IActionResult> AddPackage(GigPackageRequest request)
         {
-            bool result = false;
+            int packageId = 0;
 
-            // Create the appropriate package based on the PackageType
             switch (request.PackageType.ToLower())
             {
                 case "basic":
-                    // Use the injected service and pass necessary arguments
-                    result = await _basic.AddGigPackage(request);
-                    return Ok(new { message = "Freelancer Information saved successfully", data = result });
-
+                    packageId = await _basic.AddGigPackage(request);
                     break;
-
                 case "standard":
-                    result = await _standard.AddGigPackage(request);
-                    return Ok(new { message = "Freelancer Information saved successfully", data = result });
+                    packageId = await _standard.AddGigPackage(request);
                     break;
-
                 case "premium":
-                    result = await _premium.AddGigPackage(request);
-                    return Ok(new { message = "Freelancer Information saved successfully", data = result });
+                    packageId = await _premium.AddGigPackage(request);
                     break;
-
                 default:
                     return BadRequest("Invalid package type.");
             }
 
-            return result ? Ok("Package added.") : StatusCode(500, "Failed to add package.");
+            if (packageId > 0)
+                return Ok(new { packageId, message = "Package added successfully." });
+            else
+                return StatusCode(500, "Failed to add package.");
         }
+
         [HttpPut("UpdateGigPackage")]
         public async Task<IActionResult> updatePackage(GigPackageRequest package, int packageId)
         {

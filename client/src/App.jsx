@@ -10,6 +10,8 @@ import StartSellingPage from './assets/components/pages/StartSellingPage';
 import SearchResults from './assets/components/shared/SearchResults'
 import SearchResultResponse from './assets/components/shared/SearchResultResponse';
 import GigList from './assets/components/shared/GigList';
+import GigDetail from './assets/components/shared/GigDetail';
+import ReportComponent from './assets/components/Admin/ReportComponent';
 
 
 export default function App() {
@@ -32,7 +34,8 @@ export default function App() {
 
 <Route path="/search-response" element={<SearchResultResponse />} />
 <Route path="/search" element={<SearchResults />} />
-
+ <Route path="/gigs" element={<GigList />} />
+  <Route path="/gig/:gigId" element={<GigDetail />} />
         <Route 
           path='/start-selling'
           element={
@@ -58,16 +61,9 @@ export default function App() {
           }
         />
 
-        {/* Admin dashboard—only role==="Admin" */}
-        <Route
-          path="/admin"
-          element={
-            <ProtectedRoute requiredRole="Admin">
-              <Admin />
-            </ProtectedRoute>
-          }
-        />
-      </Routes>
+<Route path='/reports' element={<ReportComponent />}/>
+    </Routes>
+        
     </BrowserRouter>
   );
 }

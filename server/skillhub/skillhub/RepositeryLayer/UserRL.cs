@@ -13,7 +13,7 @@ using skillhub.ServiceLayer;
 
 namespace skillhub.RepositeryLayer
 {
-    public class UserRL : UserInterfaceRL, IWalletRL
+    public class UserRL : UserInterfaceRL
     {
         private readonly IConfiguration configuration;
         private readonly IDbConnectionFactory dbConnectionFactory;
@@ -63,8 +63,7 @@ namespace skillhub.RepositeryLayer
 
                     response.isSuccess = status > 0;
                     response.message = status > 0 ? "Registration successful" : "Failed to register user";
-                    Wallet wallet = new Wallet(user.userID);
-                    MakeWallet(wallet);
+                   
                 }
             }
             catch (Exception ex)
@@ -193,38 +192,159 @@ namespace skillhub.RepositeryLayer
             }
         }
 
-        //public async Task<bool> AddPersonalInformation(User persnalInformation)
-        //{
-        //    await using var mysqlconnection = dbConnectionFactory.CreateConnection();
-
-        //    try
-        //    {
-        //        if(mysqlconnection.State != System.Data.ConnectionState.Open)
-        //        {
-        //            await mysqlconnection.OpenAsync();
-        //        }
-
-        //        string commandText = commandType
-        //    }
-        //}
-
-        public Task<bool> profileInformation(User personalInformation)
+        public async Task<bool> AddPersonalInformation(User personalInformation)
         {
-            throw new NotImplementedException();
+            await using var mySqlConnection = dbConnectionFactory.CreateConnection();
+
+            try
+            {
+                if (mySqlConnection.State != System.Data.ConnectionState.Open)
+                {
+                    await mySqlConnection.OpenAsync();
+                }
+
+                string commandText = SqlQueries.AddPersonalInformation;
+
+                if (string.IsNullOrWhiteSpace(commandText))
+                {
+                    throw new InvalidOperationException("The SQL query for Personal Information is not defined or is empty.");
+                }
+
+                using (MySqlCommand sqlCommand = new MySqlCommand(commandText, mySqlConnection))
+                {
+                    sqlCommand.CommandType = System.Data.CommandType.Text;
+                    sqlCommand.CommandTimeout = 180;
+
+                    sqlCommand.Parameters.AddWithValue("@UserID", personalInformation.userID);
+                    sqlCommand.Parameters.AddWithValue("@FirstName", personalInformation.firstName);
+                    sqlCommand.Parameters.AddWithValue("@LastName", personalInformation.lastName);
+                    sqlCommand.Parameters.AddWithValue("@Phone", personalInformation.phone);
+                    sqlCommand.Parameters.AddWithValue("@Country", personalInformation.country);
+                    sqlCommand.Parameters.AddWithValue("@ProfilePicturePath", personalInformation.profilePicture); 
+                    sqlCommand.Parameters.AddWithValue("@Bio", personalInformation.bio);
+
+                    int rowsAffected = await sqlCommand.ExecuteNonQueryAsync();
+                    return rowsAffected > 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error adding personal information: " + ex.Message);
+                return false;
+            }
         }
 
-        public Task<bool> AddPersonalInformation(User personalInformation)
+
+
+       
+        public async Task<User> findUser(int userid)
         {
-            throw new NotImplementedException();
+
+            await using var mySqlConnection = dbConnectionFactory.CreateConnection();
+
+            try
+            {
+                if (mySqlConnection.State != System.Data.ConnectionState.Open)
+                {
+                    await mySqlConnection.OpenAsync();
+                }
+
+                string commandText = SqlQueries.FindUser;
+
+                using (MySqlCommand sqlCommand = new MySqlCommand(commandText, mySqlConnection))
+                {
+                    sqlCommand.CommandType = System.Data.CommandType.Text;
+                    sqlCommand.CommandTimeout = 180;
+
+                    sqlCommand.Parameters.AddWithValue("@userId", userid);
+                    using (var reader = await sqlCommand.ExecuteReaderAsync())
+                    {
+                        if (reader.Read())
+                        {
+
+                            return new User(
+                                (int)reader["userID"],
+                                reader["firstName"].ToString(),
+                                reader["lastName"].ToString(),
+                                reader["email"].ToString(),
+                                reader["passwordHash"].ToString(),
+                                reader["profilePicture"].ToString(),
+                                (int)reader["roleID"],
+                                reader["joinDate"].ToString(),
+                                reader["bio"].ToString(),
+                                reader["phone"].ToString(),
+                                reader["username"].ToString(),
+                                reader["country"].ToString()
+                            );
+                        }
+                        else
+                            return null;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                return null;
+            }
+
         }
 
-        public Task<bool> MakeWallet(Wallet wallet)
+        public async Task<User> finduser(int userid)
         {
-            
-            return walletRL.MakeWallet(wallet);
-            
+
+            await using var mySqlConnection = dbConnectionFactory.CreateConnection();
+
+            try
+            {
+                if (mySqlConnection.State != System.Data.ConnectionState.Open)
+                {
+                    await mySqlConnection.OpenAsync();
+                }
+
+                string commandText = SqlQueries.FindUser;
+
+                using (MySqlCommand sqlCommand = new MySqlCommand(commandText, mySqlConnection))
+                {
+                    sqlCommand.CommandType = System.Data.CommandType.Text;
+                    sqlCommand.CommandTimeout = 180;
+
+                    sqlCommand.Parameters.AddWithValue("@userId", userid);
+                    using (var reader = await sqlCommand.ExecuteReaderAsync())
+                    {
+                        if (reader.Read())
+                        {
+
+                            return new User(
+                                (int)reader["userID"],
+                                reader["firstName"].ToString(),
+                                reader["lastName"].ToString(),
+                                reader["email"].ToString(),
+                                reader["passwordHash"].ToString(),
+                                reader["profilePicture"].ToString(),
+                                (int)reader["roleID"],
+                                reader["joinDate"].ToString(),
+                                reader["bio"].ToString(),
+                                reader["phone"].ToString(),
+                                reader["username"].ToString(),
+                                reader["country"].ToString()
+                            );
+                        }
+                        else
+                            return null;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                return null;
+            }
+
         }
     }
 
 }
+
+
 

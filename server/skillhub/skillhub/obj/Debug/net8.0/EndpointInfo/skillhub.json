@@ -136,23 +136,122 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/PersonalInformation"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/PersonalInformation"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/PersonalInformation"
+                "type": "object",
+                "properties": {
+                  "UserID": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "FirstName": {
+                    "type": "string"
+                  },
+                  "LastName": {
+                    "type": "string"
+                  },
+                  "Phone": {
+                    "type": "string"
+                  },
+                  "Country": {
+                    "type": "string"
+                  },
+                  "Bio": {
+                    "type": "string"
+                  },
+                  "ProfilePicture": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "UserID": {
+                  "style": "form"
+                },
+                "FirstName": {
+                  "style": "form"
+                },
+                "LastName": {
+                  "style": "form"
+                },
+                "Phone": {
+                  "style": "form"
+                },
+                "Country": {
+                  "style": "form"
+                },
+                "Bio": {
+                  "style": "form"
+                },
+                "ProfilePicture": {
+                  "style": "form"
+                }
               }
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/blocked/block_user": {
+      "post": {
+        "tags": [
+          "blocked"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BlockedRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BlockedRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BlockedRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/blocked/Unblock_user": {
+      "post": {
+        "tags": [
+          "blocked"
+        ],
+        "parameters": [
+          {
+            "name": "blockerid",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "blockedid",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -191,6 +290,28 @@
         }
       }
     },
+    "/api/freelancer/Find_freelancer": {
+      "get": {
+        "tags": [
+          "freelancer"
+        ],
+        "parameters": [
+          {
+            "name": "freelancerid",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Gig/add_Freelancer_Gig": {
       "post": {
         "tags": [
@@ -198,19 +319,53 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/GigRequest"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/GigRequest"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/GigRequest"
+                "type": "object",
+                "properties": {
+                  "userId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "categoryId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "gigPicture": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "gigvideo": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "userId": {
+                  "style": "form"
+                },
+                "title": {
+                  "style": "form"
+                },
+                "description": {
+                  "style": "form"
+                },
+                "categoryId": {
+                  "style": "form"
+                },
+                "gigPicture": {
+                  "style": "form"
+                },
+                "gigvideo": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -357,6 +512,68 @@
         }
       }
     },
+    "/api/GigPackageSkill/add_GigPackageSkill": {
+      "post": {
+        "tags": [
+          "GigPackageSkill"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GigPackageSkillRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GigPackageSkillRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GigPackageSkillRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/GigPackageSkill": {
+      "put": {
+        "tags": [
+          "GigPackageSkill"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GigPackageSkillRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GigPackageSkillRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GigPackageSkillRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Messages/send": {
       "post": {
         "tags": [
@@ -381,6 +598,372 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Messages/deleteMessage/{messageId}": {
+      "delete": {
+        "tags": [
+          "Messages"
+        ],
+        "parameters": [
+          {
+            "name": "messageId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Messages/Retrive_Msg_bySender": {
+      "get": {
+        "tags": [
+          "Messages"
+        ],
+        "parameters": [
+          {
+            "name": "senderid",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Messages/Retrive_Msg_byReceiver": {
+      "get": {
+        "tags": [
+          "Messages"
+        ],
+        "parameters": [
+          {
+            "name": "Receiverid",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/order/Place_Order": {
+      "post": {
+        "tags": [
+          "order"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/order/Find_Order": {
+      "get": {
+        "tags": [
+          "order"
+        ],
+        "parameters": [
+          {
+            "name": "orderId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/order/Delete_Order/{orderid}": {
+      "delete": {
+        "tags": [
+          "order"
+        ],
+        "parameters": [
+          {
+            "name": "orderid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/order/Update_Order": {
+      "put": {
+        "tags": [
+          "order"
+        ],
+        "parameters": [
+          {
+            "name": "orderId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/report/Blocked_Report": {
+      "get": {
+        "tags": [
+          "report"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/report/ClientsReport": {
+      "get": {
+        "tags": [
+          "report"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/report/CompletedOrderReport": {
+      "get": {
+        "tags": [
+          "report"
+        ],
+        "parameters": [
+          {
+            "name": "date",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/report/FreelacnerOrderReport": {
+      "get": {
+        "tags": [
+          "report"
+        ],
+        "parameters": [
+          {
+            "name": "orders",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/report/FreelancerExperinceReport": {
+      "get": {
+        "tags": [
+          "report"
+        ],
+        "parameters": [
+          {
+            "name": "years",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/report/FreeLancerReport": {
+      "get": {
+        "tags": [
+          "report"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/report/GigReport": {
+      "get": {
+        "tags": [
+          "report"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/report/OrderCoinReport": {
+      "get": {
+        "tags": [
+          "report"
+        ],
+        "parameters": [
+          {
+            "name": "coins",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/report/OrderReport": {
+      "get": {
+        "tags": [
+          "report"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/report/PackageReport": {
+      "get": {
+        "tags": [
+          "report"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/report/WalletReport": {
+      "get": {
+        "tags": [
+          "report"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Search/search/{query}": {
+      "get": {
+        "tags": [
+          "Search"
+        ],
+        "parameters": [
+          {
+            "name": "query",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -434,6 +1017,24 @@
   },
   "components": {
     "schemas": {
+      "BlockedRequest": {
+        "type": "object",
+        "properties": {
+          "blockerId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "blockedUserId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "reason": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "FreelancerRequest": {
         "type": "object",
         "properties": {
@@ -442,7 +1043,8 @@
             "format": "int32"
           },
           "gender": {
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "education": {
             "type": "string",
@@ -477,6 +1079,28 @@
           "packageType": {
             "type": "string",
             "nullable": true
+          },
+          "packageId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GigPackageSkillRequest": {
+        "type": "object",
+        "properties": {
+          "packageSkillId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "packageId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "skillId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -499,6 +1123,16 @@
           "categoryId": {
             "type": "integer",
             "format": "int32"
+          },
+          "gigPicture": {
+            "type": "string",
+            "format": "binary",
+            "nullable": true
+          },
+          "gigvideo": {
+            "type": "string",
+            "format": "binary",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -517,51 +1151,32 @@
           "messageText": {
             "type": "string",
             "nullable": true
-          },
-          "sentTime": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "isRead": {
-            "type": "boolean"
           }
         },
         "additionalProperties": false
       },
-      "PersonalInformation": {
+      "OrderRequest": {
         "type": "object",
         "properties": {
-          "userID": {
+          "clientId": {
             "type": "integer",
             "format": "int32"
           },
-          "firstName": {
-            "type": "string",
-            "nullable": true
+          "gigId": {
+            "type": "integer",
+            "format": "int32"
           },
-          "lastName": {
-            "type": "string",
-            "nullable": true
+          "freelancerId": {
+            "type": "integer",
+            "format": "int32"
           },
-          "phone": {
+          "dueDate": {
             "type": "string",
-            "nullable": true
+            "format": "date-time"
           },
-          "country": {
-            "type": "string",
-            "nullable": true
-          },
-          "profilePicture": {
-            "type": "string",
-            "nullable": true
-          },
-          "bio": {
-            "type": "string",
-            "nullable": true
-          },
-          "language": {
-            "type": "string",
-            "nullable": true
+          "coinAmount": {
+            "type": "number",
+            "format": "float"
           }
         },
         "additionalProperties": false

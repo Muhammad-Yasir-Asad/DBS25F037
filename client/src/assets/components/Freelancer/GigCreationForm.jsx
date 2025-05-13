@@ -312,12 +312,36 @@ const GigCreationForm = () => {
   const [submitError, setSubmitError] = useState('');
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [userId, setUserId] = useState(null);
+  const [packageResponse, setPackageResponse] = useState(null);
+  const [loading, setLoading] = useState(false);
+
   const navigate = useNavigate();
+
+  const Loader = () => (
+  <div style={{ textAlign: 'center', marginTop: '1rem' }}>
+    <div
+      style={{
+        border: '4px solid #f3f3f3',
+        borderTop: '4px solid #333',
+        borderRadius: '50%',
+        width: '30px',
+        height: '30px',
+        animation: 'spin 1s linear infinite',
+      }}
+    />
+    <style>{`
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    `}</style>
+  </div>
+);
 
   const MAX_SKILLS = [3, 5, 8];
 
   useEffect(() => {
-    const token = localStorage.getItem('authToken');
+    const token = localStorage.getItem('auth-token');
     if (token) {
       try {
         const decoded = jwtDecode(token);
@@ -412,36 +436,115 @@ const GigCreationForm = () => {
     </div>
   );
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    if (!isValid || !userId) return;
+    const handleSubmit = async (e) => {
+  e.preventDefault();
+  if (!isValid || !userId) return;
 
-    const formPayload = new FormData();
-    formPayload.append('userId', userId);
-    formPayload.append('title', formData.title);
-    formPayload.append('category', formData.category.value);
-    formPayload.append('description', formData.description);
-    formPayload.append('image', formData.imageFile);
-    formPayload.append('video', formData.videoFile);
-    formPayload.append('packages', JSON.stringify(formData.packages));
+  setLoading(true);
+  setSubmitError('');
 
-    try {
-      const token = localStorage.getItem('authToken');
-      const response = await axios.post('https://api.yourservice.com/gigs', formPayload, {
+  try {
+    const token = localStorage.getItem('auth-token');
+    const userIdInt = parseInt(userId, 10);
+
+    // 1️⃣ Create Gig
+    const gigFormData = new FormData();
+    gigFormData.append('userId', userIdInt);
+    gigFormData.append('title', formData.title);
+    gigFormData.append('categoryId', formData.category.value);
+    gigFormData.append('description', formData.description);
+    gigFormData.append('gigPicture', formData.imageFile);
+    gigFormData.append('gigvideo', formData.videoFile);
+
+    const gigRes = await axios.post(
+      'https://localhost:7067/api/Gig/add_Freelancer_Gig',
+      gigFormData,
+      {
         headers: {
           'Content-Type': 'multipart/form-data',
           'Authorization': `Bearer ${token}`
         }
-      });
-
-      if (response.data.success) {
-        setSubmitSuccess(true);
-        setTimeout(() => navigate('/gigs'), 2000);
       }
-    } catch (error) {
-      setSubmitError(error.response?.data?.message || 'Failed to create gig');
+    );
+
+    console.log('Gig response:', gigRes.data);
+    const gigId = parseInt(gigRes.data.gigId, 10);
+    console.log('Extracted gigId:', gigId);
+
+    // 2️⃣ Create Packages & Link Skills
+    const packageTypes = ['Basic', 'Standard', 'Premium'];
+
+    for (let i = 0; i < formData.packages.length; i++) {
+      const pkg = formData.packages[i];
+
+      // require basic package
+      if (i === 0 && (!pkg.price || !pkg.deliveryTime || !pkg.description)) {
+        throw new Error('Basic package is required');
+      }
+      // skip incomplete non-basic packages
+      if (i !== 0 && (!pkg.price || !pkg.deliveryTime || !pkg.description)) {
+        console.log(`Skipping package #${i} (incomplete)`);
+        continue;
+      }
+
+      // 2.1) Create the package
+      const pkgRes = await axios.post(
+        'https://localhost:7067/api/GigPackage/add',
+        {
+          gigId,
+          price: Number(pkg.price),
+          deliveryDays: parseInt(pkg.deliveryTime, 10),
+          description: pkg.description,
+          packageType: packageTypes[i]
+        },
+        {
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Content-Type': 'application/json'
+          }
+        }
+      );
+
+      // assume backend returns { packageId: 77 }
+      const packageId = pkgRes.data.packageId;
+      console.log(`Created package #${i}, id=${packageId}`);
+
+      // 2.2) Link each selected skill
+      for (const skillId of pkg.skills) {
+        await axios.post(
+          'https://localhost:7067/api/GigPackageSkill/add_GigPackageSkill',
+          {
+            packageSkillId: 0,
+            packageId: packageId,
+            skillId: skillId
+          },
+          {
+            headers: {
+              'Authorization': `Bearer ${token}`,
+              'Content-Type': 'application/json'
+            }
+          }
+        );
+        console.log(`  → linked skill ${skillId} to package ${packageId}`);
+      }
     }
-  };
+
+    // 3️⃣ Success
+    setSubmitSuccess(true);
+    setTimeout(() => navigate('/gigs'), 2000);
+
+  } catch (err) {
+    console.error('Submission error:', err);
+    if (err.response) {
+      console.error('  → response data:', err.response.data);
+    }
+    setSubmitError(err.response?.data?.message || err.message);
+
+  } finally {
+    setLoading(false);
+  }
+};
+
 
   return (
     <div className="max-w-4xl mx-auto p-4">

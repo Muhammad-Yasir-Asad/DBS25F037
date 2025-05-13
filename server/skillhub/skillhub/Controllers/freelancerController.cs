@@ -31,7 +31,19 @@ namespace skillhub.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
+        [HttpGet("Find_freelancer")]
+        public async Task<IActionResult> FindFreelancers(int freelancerid)
+        {
+            try
+            {
+                var result = await freelancer.findFreelancer(freelancerid);
+                return Ok(new { message = "Freelancer retrived saved successfully", data = result });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
 
 
     }

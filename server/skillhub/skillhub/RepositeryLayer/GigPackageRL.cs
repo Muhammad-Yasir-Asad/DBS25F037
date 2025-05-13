@@ -17,7 +17,7 @@ namespace skillhub.RepositeryLayer
             this.dbConnectionFactory = dbConnectionFactory;
             _logger = logger;
         }
-        public async Task<bool> AddGigPackage(GigPackage gigPackage, string packageType)
+        public async Task<int> AddGigPackage(GigPackage gigPackage, string packageType)
         {
             await using var mySqlConnection = dbConnectionFactory.CreateConnection();
             try
@@ -36,17 +36,17 @@ namespace skillhub.RepositeryLayer
                     cmd.Parameters.AddWithValue("@deliveryDays", gigPackage.DeliveryDays);
                     cmd.Parameters.AddWithValue("@description", gigPackage.Description);
 
-                    int rowsAffected = await cmd.ExecuteNonQueryAsync();
-                    return rowsAffected > 0;
+                    var packageId = await cmd.ExecuteScalarAsync();
+                    return Convert.ToInt32(packageId);
 
                 }
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error occurred while adding gig package for GigId: {GigId}", gigPackage.GigId);
-                return false;
+                return 0;
             }
-            return true;
+            
 
         }
         public async Task<bool> UpdateGigPackage(GigPackage gigPackage, int id, string packageType)
@@ -83,8 +83,6 @@ namespace skillhub.RepositeryLayer
                 return false;
             }
         }
-
-
 
     }
     

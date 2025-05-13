@@ -6,8 +6,9 @@ namespace skillhub.Interfaces.IServiceLayer
     public interface IGigSL
     {
 
-        public Task<bool> AddFreelancerGig(GigRequest gigRequest);
+        public Task<int> AddFreelancerGig(GigRequest gigRequest);
         public Task<bool> DeleteGig(int id);
+        public Task<Gig> GetGig(int id);
 
         public Task<bool> UpdateGig(int id, GigRequest gigRequest);
     }
