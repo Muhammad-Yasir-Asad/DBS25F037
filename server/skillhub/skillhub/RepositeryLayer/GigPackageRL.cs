@@ -49,6 +49,69 @@ namespace skillhub.RepositeryLayer
             
 
         }
+
+        public async Task<GigPackage> GetGigPackage(int id)
+        {
+            await using var mySqlConnection = dbConnectionFactory.CreateConnection();
+
+            try
+            {
+                if (mySqlConnection.State != System.Data.ConnectionState.Open)
+                {
+                    await mySqlConnection.OpenAsync();
+                }
+
+                string commandText = SqlQueries.GetGigPackage;
+
+                using (MySqlCommand sqlCommand = new MySqlCommand(commandText, mySqlConnection))
+                {
+                    sqlCommand.CommandType = System.Data.CommandType.Text;
+                    sqlCommand.CommandTimeout = 180;
+
+                    sqlCommand.Parameters.AddWithValue("@packageId", id);
+
+                    using (var reader = await sqlCommand.ExecuteReaderAsync())
+                    {
+                        if (reader.Read())
+                        {
+                            int pkgId = (int)reader["packageId"];
+                            int gigId = (int)reader["gigId"];
+                            string packageType = (string)reader["packageType"];
+                            float price = Convert.ToSingle(reader["price"]);
+                            int deliveryDays = (int)reader["deliveryDays"];
+                            string description = (string)reader["description"];
+                            if (packageType == "Basic") 
+                            {
+                            return new GigPackageBasic(pkgId, gigId,price, packageType, deliveryDays, description);
+
+                            }
+                            if (packageType == "Standard") 
+                            {
+                                return new GigPackageStandard(pkgId, gigId, price, packageType, deliveryDays, description);
+
+                            }
+                            if (packageType == "Premium") 
+                            {
+                                return new GigPackagePremium(pkgId, gigId, price, packageType, deliveryDays, description);
+
+                            }
+                            return null;
+                        }
+                        else
+                        {
+                            return null;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                return null;
+            }
+
+        }
+
         public async Task<bool> UpdateGigPackage(GigPackage gigPackage, int id, string packageType)
         {
             await using var mySqlConnection = dbConnectionFactory.CreateConnection();

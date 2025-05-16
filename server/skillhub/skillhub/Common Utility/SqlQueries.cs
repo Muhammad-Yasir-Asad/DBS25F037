@@ -337,5 +337,12 @@ namespace skillhub.Common_Utilities
                 return configuration["OrderCoinReport"];
             }
         }
+        public static string GetGigPackage
+        {
+            get
+            {
+                return configuration["GetGigPackage"];
+            }
+        }
     }
 }

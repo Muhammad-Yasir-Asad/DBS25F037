@@ -386,8 +386,6 @@ namespace skillhub.RepositeryLayer
                         dataTable.Columns.Add("createdDate", typeof(DateTime));
                         dataTable.Columns.Add("updatedDate", typeof(DateTime));
                         dataTable.Columns.Add("avgRating", typeof(decimal));
-                        dataTable.Columns.Add("picture", typeof(string));
-                        dataTable.Columns.Add("video", typeof(string));
 
                         while (reader.Read())
                         {
@@ -398,10 +396,8 @@ namespace skillhub.RepositeryLayer
                             DateTime createdDate = reader["createdDate"] != DBNull.Value ? Convert.ToDateTime(reader["createdDate"]) : DateTime.MinValue;
                             DateTime updatedDate = reader["updatedDate"] != DBNull.Value ? Convert.ToDateTime(reader["updatedDate"]) : DateTime.MinValue;
                             decimal avgRating = reader["avgRating"] != DBNull.Value ? Convert.ToDecimal(reader["avgRating"]) : 0;
-                            string picture = reader["picture"]?.ToString() ?? string.Empty;
-                            string video = reader["video"]?.ToString() ?? string.Empty;
 
-                            dataTable.Rows.Add(gigOwner, title, description, category, createdDate, updatedDate, avgRating, picture, video);
+                            dataTable.Rows.Add(gigOwner, title, description, category, createdDate, updatedDate, avgRating);
                         }
 
                         return dataTable;

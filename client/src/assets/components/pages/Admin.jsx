@@ -2,7 +2,6 @@
 import React from 'react';
 import AdminNavbar from '../Admin/AdminNavbar';
 import { Route, Routes} from 'react-router-dom';
-import ReportComponent from '../Admin/ReportComponent';
 const AdminDashboard = () => (
   <>
     <AdminNavbar />

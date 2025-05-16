@@ -7,6 +7,8 @@ namespace skillhub.Interfaces.IRepositryLayer
 
         public Task<int> AddGigPackage(GigPackage gigpackage, string packageType);
         public Task<bool> UpdateGigPackage(GigPackage gigPackage, int gigPackageId, string packageType);
+        public  Task<GigPackage> GetGigPackage(int id);
+
     }
 
 }

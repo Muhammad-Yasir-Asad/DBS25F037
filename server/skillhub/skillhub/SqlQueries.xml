@@ -120,12 +120,12 @@ VALUES (@gigId, @packageType, @price, @deliveryDays, @description); SELECT LAST_
 	</Findgig>
 	<InsertOrder>
 		<![CDATA[
-		INSERT INTO orders(clientId, gigId, freelancerID, dueDate, coinAmount) VALUES (@clientId,@gigID,@freelancerId,@dueDate,@coinAmount);
+		INSERT INTO orders(clientId, gigId, freelancerID, dueDate, coinAmount,packageId) VALUES (@clientId,@gigID,@freelancerId,@dueDate,@coinAmount,@gigpackageId);
 		]]>
 	</InsertOrder>
 	<FindOrder>
 		<![CDATA[
-		Select * from orders where orderid=@orderId
+		Select * from orders where orderId=@orderId
 		]]>
 	</FindOrder>
 	<UpdateOrder>
@@ -193,4 +193,9 @@ VALUES (@gigId, @packageType, @price, @deliveryDays, @description); SELECT LAST_
 	call Skillhub.OrdersWithMinCoins(@coins);
 	]]>
 	</OrderCoinReport>
+	<GetGigPackage>
+		<![CDATA[
+		Select * from gigpackage where packageId=@packageId;
+		]]>
+	</GetGigPackage>
 </Queries>

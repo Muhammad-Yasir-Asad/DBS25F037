@@ -94,7 +94,7 @@ namespace skillhub.RepositeryLayer
                             string education = (string)reader["education"];
                             string language = (string)reader["language"];
                             User user = await userInterface.findUser(userid);
-                            return new Freelancer(freelancerID, ExperienceYears, rating, totalCompletedOrders, availabilityStatus, gender, education, language, user);
+                            return new Freelancer(freelancerID,userid, ExperienceYears, rating, totalCompletedOrders, availabilityStatus, gender, education, language, user);
                         }
                         else
                         {

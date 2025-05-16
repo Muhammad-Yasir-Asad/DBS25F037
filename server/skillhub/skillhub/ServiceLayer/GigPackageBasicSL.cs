@@ -32,6 +32,11 @@ namespace skillhub.ServiceLayer
             GigPackageBasic gigPackageBasic = new GigPackageBasic(gigPackage.GigId, gigPackage.Price, gigPackage.DeliveryDays, gigPackage.Description);
             return gigPackageRL.UpdateGigPackage(gigPackageBasic, id, gigPackageBasic.GetPackageType());
         }
+
+        public override Task<GigPackage> GetGigPackage(int id)
+        {
+            return gigPackageRL.GetGigPackage(id);
+        }
     }
 
 }

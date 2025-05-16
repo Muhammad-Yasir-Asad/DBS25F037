@@ -7,22 +7,49 @@ import Client from './assets/components/pages/Client';
 import Admin from './assets/components/pages/Admin'
 import ProtectedRoute from './assets/components/Context/ProtectedRoute';
 import StartSellingPage from './assets/components/pages/StartSellingPage';
-import SearchResults from './assets/components/shared/SearchResults'
 import SearchResultResponse from './assets/components/shared/SearchResultResponse';
 import GigList from './assets/components/shared/GigList';
 import GigDetail from './assets/components/shared/GigDetail';
-import ReportComponent from './assets/components/Admin/ReportComponent';
+import SearchPage from './assets/components/pages/SearchPage';
+import chatConnection from './assets/components/services/chatConnection';
+import { useEffect } from 'react';
+import SearchResults from './assets/components/shared/SearchResults';
+import Reports from './assets/components/Admin/reports';
 
 
 export default function App() {
+
+  useEffect(() => {
+    const startSignalRConnection = async () => {
+      try {
+        if (chatConnection.state === "Disconnected") {
+      await chatConnection.start();
+      console.log("✅ SignalR Connected");
+    } else {
+      console.warn("⚠️ SignalR already connected or connecting");
+    }
+  } catch (err) {
+    console.error("❌ SignalR Connection failed: ", err);
+  }
+    };
+
+    startSignalRConnection();
+
+    // Optional: handle connection close/reconnect events
+    chatConnection.onclose(() => {
+      console.warn('🔌 SignalR disconnected.');
+    });
+
+  }, []);
+
   return (
     <BrowserRouter>
 
       <Routes>
-        {/* Public landing / login page */}
+
         <Route path="/" element={<Home />} />
 
-        {/* Freelancer dashboard—only role==="Freelancer" */}
+      
         <Route
           path="/freelancer/*"
           element={
@@ -32,7 +59,7 @@ export default function App() {
           }
         />
 
-<Route path="/search-response" element={<SearchResultResponse />} />
+<Route path="/search-response" element={<SearchPage />} />
 <Route path="/search" element={<SearchResults />} />
  <Route path="/gigs" element={<GigList />} />
   <Route path="/gig/:gigId" element={<GigDetail />} />
@@ -61,7 +88,9 @@ export default function App() {
           }
         />
 
-<Route path='/reports' element={<ReportComponent />}/>
+        
+
+<Route path='/reports' element={<Reports />}/>
     </Routes>
         
     </BrowserRouter>

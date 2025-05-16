@@ -10,6 +10,7 @@
     <PackageReference Include="iTextSharp" Version="5.5.13.4" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Cors" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.4">
@@ -30,6 +31,12 @@
   <ItemGroup>
     <Folder Include="CommonLayer\Model\Profile\" />
     <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SkillHub.Security">
+      <HintPath>..\..\..\..\..\OOP\SkillHub.Security\SkillHub.Security\bin\Debug\SkillHub.Security.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

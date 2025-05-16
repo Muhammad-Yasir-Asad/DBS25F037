@@ -9,7 +9,7 @@
         public DateTime sentTime { get; private set; }
         public bool isRead { get; private set; }
 
-        public Message(int senderid, int receiverId, string messageText)
+        public Message(int senderId, int receiverId, string messageText)
         {
             if (!Validate(messageText) && senderId != receiverId)
             {

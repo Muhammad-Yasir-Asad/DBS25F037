@@ -3,6 +3,8 @@ using System;
 using Microsoft.AspNetCore.Mvc;
 using skillhub.Interfaces.IServiceLayer;
 using skillhub.CommonLayer.Model.Messages;
+using Microsoft.AspNetCore.SignalR;
+using skillhub.Hubs;
 
 namespace skillhub.Controllers
 {
@@ -12,11 +14,13 @@ namespace skillhub.Controllers
         public class MessagesController : Controller
         {
             private readonly IMessageSL messageInterface;
+        private readonly IHubContext<MessageHub> hubContext;
 
-            public MessagesController(IMessageSL messageInterface)
+        public MessagesController(IMessageSL messageInterface, IHubContext<MessageHub> hubContext)
             {
                 this.messageInterface = messageInterface;
-            }
+            this.hubContext = hubContext;
+        }
 
             [HttpPost("send")]
             public async Task<IActionResult> SendMessage(MessageRequest request)
@@ -32,6 +36,10 @@ namespace skillhub.Controllers
                     return BadRequest(ex.Message);
                 }
             }
+
+
+
+
         [HttpDelete("deleteMessage/{messageId}")]
         public async Task<IActionResult> DeleteMessage(int messageId)
         {

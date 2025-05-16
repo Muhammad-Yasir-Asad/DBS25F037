@@ -102,6 +102,26 @@ namespace skillhub.Controllers
                 return BadRequest(new { message = ex.Message });
             }
         }
+        [HttpGet("Find_user")]
+        public async Task<IActionResult> FindUser(int userId)
+        {
+            try
+            {
+                var user = await userInterface.findUser(userId);
+
+                if (user == null)
+                {
+
+                    return NotFound(new { message = "User not found" });
+                }
+
+                return Ok(new { message = "User found", data = user });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
 
 
 

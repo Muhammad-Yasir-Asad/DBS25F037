@@ -105,7 +105,7 @@ namespace skillhub.Common_Utility
                     pdfTable.SetWidths(columnWidths);
 
                     // Table header
-                    Font headerFont = FontFactory.GetFont("Arial", 11, Font.BOLD, BaseColor.WHITE);
+                    Font headerFont = FontFactory.GetFont("Arial", 10, Font.NORMAL, BaseColor.WHITE);
                     foreach (DataColumn column in dataTable.Columns)
                     {
                         PdfPCell headerCell = new PdfPCell(new Phrase(column.ColumnName, headerFont))

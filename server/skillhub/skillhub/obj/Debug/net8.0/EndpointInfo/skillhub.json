@@ -198,6 +198,28 @@
         }
       }
     },
+    "/api/auth/Find_user": {
+      "get": {
+        "tags": [
+          "auth"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/blocked/block_user": {
       "post": {
         "tags": [
@@ -440,6 +462,28 @@
         }
       }
     },
+    "/api/Gig/FindGig": {
+      "get": {
+        "tags": [
+          "Gig"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/GigPackage/add": {
       "post": {
         "tags": [
@@ -505,6 +549,28 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/GigPackage/GetGigPackage": {
+      "get": {
+        "tags": [
+          "GigPackage"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -1163,6 +1229,10 @@
             "format": "int32"
           },
           "gigId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "gigpackageId": {
             "type": "integer",
             "format": "int32"
           },

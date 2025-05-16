@@ -9,7 +9,7 @@ const StartSelling = () => {
   const navigate = useNavigate();
 
   const NavigateToSeller = () => {
-    navigate("/freelancer/personal_information");
+    navigate("/freelancer/manage_gig");
   }
 
   const statsRef = useRef(null);

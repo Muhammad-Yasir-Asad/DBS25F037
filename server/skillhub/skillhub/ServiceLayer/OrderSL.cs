@@ -1,5 +1,6 @@
 ﻿using skillhub.CommonLayer.Model.Freelancer;
 using skillhub.CommonLayer.Model.Gig;
+using skillhub.CommonLayer.Model.GigPackages;
 using skillhub.CommonLayer.Model.Order;
 using skillhub.Interfaces.IRepositryLayer;
 using skillhub.Interfaces.IServiceLayer;
@@ -13,12 +14,15 @@ namespace skillhub.ServiceLayer
         public readonly UserInterfaceSL userInterface;
         public readonly IFreelancerSL freelancerInterface;
         public readonly IGigSL gigInterface;
-        public OrderSL(IOrderRL orderInterface, UserInterfaceSL userInterface, IFreelancerSL freelancerInterface, IGigSL gigInterface)
+        public readonly IGigPackageRL gigPackageSL;
+
+        public OrderSL(IOrderRL orderInterface, UserInterfaceSL userInterface, IFreelancerSL freelancerInterface, IGigSL gigInterface, IGigPackageRL gigPackageSL)
         {
             this.orderInterface = orderInterface;
             this.userInterface = userInterface;
             this.freelancerInterface = freelancerInterface;
             this.gigInterface = gigInterface;
+            this.gigPackageSL = gigPackageSL;
         }
 
         public Task<bool> deleteOrder(int orderId)
@@ -37,15 +41,13 @@ namespace skillhub.ServiceLayer
             User client = await userInterface.findUser(request.clientId);
             Freelancer freelancer = await freelancerInterface.findFreelancer(request.freelancerId);
             Gig gig = await gigInterface.GetGig(request.gigId);
-            if (gig.userId == freelancer.userID)
-            {
-                Order order = new Order(client, gig, freelancer, request.dueDate, request.coinAmount);
+            GigPackage gigPackage = await gigPackageSL.GetGigPackage(request.gigpackageId);
+
+
+            Order order = new Order(client, gig,gigPackage, freelancer, request.dueDate, request.coinAmount);
+
                 return await orderInterface.MakeOrder(order);
-            }
-            else
-            {
-                return false;
-            }
+            
         }
 
         public async Task<bool> updateOrder(int orderId, string status)

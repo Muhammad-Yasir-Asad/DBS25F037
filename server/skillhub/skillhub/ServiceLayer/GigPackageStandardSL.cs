@@ -29,6 +29,10 @@ namespace skillhub.ServiceLayer
             return gigPackageRL.UpdateGigPackage(gigPackageStandard, id, gigPackageStandard.GetPackageType());
         }
 
+        public override Task<GigPackage> GetGigPackage(int id)
+        {
+            return gigPackageRL.GetGigPackage(id);
+        }
     }
 
 }

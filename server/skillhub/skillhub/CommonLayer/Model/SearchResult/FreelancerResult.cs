@@ -6,6 +6,7 @@
         public string Gender { get; set; }
         public string Education { get; set; }
         public string Language { get; set; }
+        public int totalCompletedOrders { get; set; }
         public UserResult User { get; set; }
     }
 }

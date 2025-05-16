@@ -2,6 +2,7 @@
 using skillhub.Interfaces.IServiceLayer;
 using skillhub.Interfaces.IRepositryLayer;
 using skillhub.CommonLayer.Model.GigPackages;
+using skillhub.CommonLayer.Model.Freelancer;
 
 namespace skillhub.Controllers
 {
@@ -73,6 +74,20 @@ namespace skillhub.Controllers
             }
 
         }
+        [HttpGet("GetGigPackage")]
+        public async Task<IActionResult> getGigPackage(int id)
+        {
+            try
+            {
+                var result = await _basic.GetGigPackage(id);
+                return Ok(new { message = "GigPackage retrived saved successfully", data = result });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
     }
 
 }

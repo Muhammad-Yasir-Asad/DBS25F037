@@ -1,4 +1,6 @@
-﻿using skillhub.CommonLayer.Model.Order;
+﻿
+
+using skillhub.CommonLayer.Model.Order;
 
 namespace skillhub.Interfaces.IRepositryLayer
 {
@@ -8,5 +10,6 @@ namespace skillhub.Interfaces.IRepositryLayer
         public Task<Order> findOrder(int orderId);
         public Task<bool> updateOrder(int orderId, string status);
         public Task<bool> deleteOrder(int orderId);
+
     }
 }

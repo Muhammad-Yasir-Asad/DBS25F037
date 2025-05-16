@@ -41,6 +41,7 @@ C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\
 C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\Microsoft.SqlServer.Server.dll
 C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
 C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\MySqlConnector.dll
+C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll
 C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -53,6 +54,7 @@ C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\
 C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\System.IO.Pipelines.dll
 C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\System.Memory.Data.dll
+C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\System.Net.WebSockets.WebSocketProtocol.dll
 C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\System.Runtime.Caching.dll
 C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
 C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\System.Security.Permissions.dll
@@ -70,4 +72,6 @@ C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\
 C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\SkillHub.Security.dll
+C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\SkillHub.Security.pdb
 C:\Users\HP\OneDrive\Documents\Smemster_2\DataBase\FinalProject\server\skillhub\skillhub\obj\Release\net8.0\PubTmp\Out\skillhub.deps.json

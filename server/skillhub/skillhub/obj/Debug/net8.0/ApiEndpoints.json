@@ -33,6 +33,22 @@
   },
   {
     "ContainingType": "skillhub.Controllers.authController",
+    "Method": "FindUser",
+    "RelativePath": "api/auth/Find_user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.authController",
     "Method": "ActionResult",
     "RelativePath": "api/auth/login",
     "HttpMethod": "POST",
@@ -237,6 +253,22 @@
   },
   {
     "ContainingType": "skillhub.Controllers.GigController",
+    "Method": "FindGid",
+    "RelativePath": "api/Gig/FindGig",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.GigController",
     "Method": "UpdateGig",
     "RelativePath": "api/Gig/UpdateGig",
     "HttpMethod": "PUT",
@@ -268,6 +300,22 @@
         "Name": "request",
         "Type": "skillhub.CommonLayer.Model.GigPackages.GigPackageRequest",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "skillhub.Controllers.GigPackageController",
+    "Method": "getGigPackage",
+    "RelativePath": "api/GigPackage/GetGigPackage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

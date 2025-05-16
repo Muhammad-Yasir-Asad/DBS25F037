@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Data;
+using skillhub.ServiceLayer;
 
 namespace skillhub.RepositeryLayer
 {
@@ -75,14 +76,19 @@ namespace skillhub.RepositeryLayer
                     l.value AS Category,
                     g.picture,
                     g.video,
+                    g.AvgRating,
                     fp.freelancerID, 
                     fp.gender, 
                     fp.education, 
                     fp.language,
+                    fp.totalCompletedOrders,
+                    u.userID,
                     u.firstName, 
                     u.lastName, 
                     u.username, 
+                    u.profilePicture,
                     u.country, 
+                    u.bio,
                     u.joinDate
                 FROM gig g
                 INNER JOIN freelancerprofile fp ON g.userId = fp.userID
@@ -99,24 +105,31 @@ namespace skillhub.RepositeryLayer
             {
                 gigs.Add(new GigBaseInfo
                 {
+                    userID = reader.GetInt32("userID"),
                     GigId = reader.GetInt32("gigId"),
                     Title = reader.GetString("title"),
                     Description = reader.GetString("description"),
                     Category = reader.IsDBNull("Category") ? null : reader.GetString("Category"),
                     Picture = reader.IsDBNull("picture") ? null : reader.GetString("picture"),
                     Video = reader.IsDBNull("video") ? null : reader.GetString("video"),
+                    profilePicture = reader.IsDBNull("profilePicture") ? null : reader.GetString("profilePicture"),
+                    AvgRating = reader.IsDBNull(reader.GetOrdinal("AvgRating")) ? (decimal?)null : reader.GetDecimal(reader.GetOrdinal("AvgRating")),
                     Freelancer = new FreelancerResult
                     {
                         FreelancerId = reader.GetInt32("freelancerID"),
                         Gender = reader.GetString("gender"),
                         Education = reader.GetString("education"),
                         Language = reader.GetString("language"),
+                        totalCompletedOrders = reader.GetInt32("totalCompletedOrders"),
                         User = new UserResult
                         {
+                            userID = reader.GetInt32("userID"),
                             FirstName = reader.GetString("firstName"),
                             LastName = reader.GetString("lastName"),
                             Username = reader.GetString("username"),
+                            Bio = reader.GetString("bio"),
                             Country = reader.GetString("country"),
+                            profilePicture = reader.GetString("profilePicture"),
                             JoinDate = reader.GetDateTime("joinDate")
                         }
                     }
@@ -197,12 +210,17 @@ namespace skillhub.RepositeryLayer
 
         private class GigBaseInfo
         {
+            public int userID { get; set; }
             public int GigId { get; set; }
             public string Title { get; set; }
             public string Description { get; set; }
             public string Category { get; set; }
             public string Picture { get; set; }
             public string Video { get; set; }
+
+            public string profilePicture { get; set; }
+
+            public decimal? AvgRating { get; set; }
             public FreelancerResult Freelancer { get; set; }
         }
     }

@@ -31,9 +31,10 @@ namespace skillhub.CommonLayer.Model.Freelancer
             this.education = education;
             this.language = languaage;
         }
-        public Freelancer(int freelancerID, int ExperienceYears, float rating, int totalCompletedOrders, bool availabilityStatus, string gender, string education, string language, User user) : base(user)
+        public Freelancer(int freelancerID,int userid, int ExperienceYears, float rating, int totalCompletedOrders, bool availabilityStatus, string gender, string education, string language, User user) : base(user)
         {
             this.freelancerID = freelancerID;
+            this.userID=userid;
             this.ExperienceYears = ExperienceYears;
             this.rating = rating;
             this.totalCompletedOrders = totalCompletedOrders;

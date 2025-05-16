@@ -10,6 +10,7 @@ using skillhub.ServiceLayer;
 using skillhub.Helpers;
 using skillhub.Interfaces.IRepositryLayer;
 using skillhub.Interfaces.IServiceLayer;
+using skillhub.Hubs;
 
 // Create builder with web root configuration FIRST
 var builder = WebApplication.CreateBuilder(new WebApplicationOptions
@@ -28,6 +29,7 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddControllers();
+builder.Services.AddSignalR();
 
 #region Dependency Injection
 builder.Services.AddScoped<UserInterfaceSL, UserSL>();
@@ -50,6 +52,8 @@ builder.Services.AddScoped<IBlockedRL, BlockedRL>();
 builder.Services.AddScoped<IBlockedSL, BlockedSL>();
 builder.Services.AddScoped<IReportRL, ReportRL>();
 builder.Services.AddScoped<IReportSL, ReportSL>();
+builder.Services.AddScoped<IOrderRL, OrderRL>();
+builder.Services.AddScoped<IOrderSL, OrderSL>();
 builder.Services.AddScoped<IGigPackageSkillRL, GigPackageSkillRL>();
 builder.Services.AddScoped<IGigPackageSkillSL, GigPackageSkillSL>();
 #endregion
@@ -85,19 +89,19 @@ if (!Directory.Exists(wwwrootPath))
 }
 
 // Configure the HTTP request pipeline
-if (app.Environment.IsDevelopment())
-{
+
     app.UseSwagger();
     app.UseSwaggerUI();
-}
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-app.UseCors("AllowAll");
 app.UseRouting();
+app.UseCors("AllowAll");
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapHub<MessageHub>("/messagehub");
+app.MapHub<VideoHub>("/videoHub");
 
 app.Run();

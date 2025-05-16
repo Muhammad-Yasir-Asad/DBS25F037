@@ -2,6 +2,7 @@
 using skillhub.Common_Utilities;
 using skillhub.CommonLayer.Model.Freelancer;
 using skillhub.CommonLayer.Model.Gig;
+using skillhub.CommonLayer.Model.GigPackages;
 using skillhub.CommonLayer.Model.Order;
 using skillhub.CommonLayer.Model.Users;
 using skillhub.Helpers;
@@ -18,14 +19,16 @@ namespace skillhub.RepositeryLayer
         public readonly UserInterfaceSL userInterface;
         public readonly IFreelancerSL freelancerInterface;
         public readonly IGigSL gigInterface;
+        public readonly IGigPackageRL gigPackageSL;
 
-        public OrderRL(IConfiguration configuration, IDbConnectionFactory dbConnectionFactory, UserInterfaceSL userInterface, IFreelancerSL freelancerInterface, IGigSL gigInterface)
+        public OrderRL(IConfiguration configuration, IDbConnectionFactory dbConnectionFactory, UserInterfaceSL userInterface, IFreelancerSL freelancerInterface, IGigSL gigInterface, IGigPackageRL gigPackageSL)
         {
             this.configuration = configuration;
             this.dbConnectionFactory = dbConnectionFactory;
             this.userInterface = userInterface;
             this.freelancerInterface = freelancerInterface;
             this.gigInterface = gigInterface;
+            this.gigPackageSL = gigPackageSL;
         }
 
         public async Task<bool> deleteOrder(int orderId)
@@ -52,7 +55,7 @@ namespace skillhub.RepositeryLayer
 
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return false;
             }
@@ -83,16 +86,21 @@ namespace skillhub.RepositeryLayer
                         {
                             int clientId = (int)reader["clientId"];
                             int gigId = (int)reader["gigId"];
+                            int gigpackageId = (int)reader["packageId"];
                             int freelancerID = (int)reader["freelancerID"];
                             DateTime orderDate = (DateTime)reader["orderDate"];
                             DateTime dueDate = (DateTime)reader["dueDate"];
                             string status = (string)reader["status"];
                             int coinAmount = (int)reader["coinAmount"];
-                            DateTime completionDate = (DateTime)reader["completionDate"];
+                            DateTime? completionDate = reader["completionDate"] == DBNull.Value 
+    ? (DateTime?)null 
+    : (DateTime)reader["completionDate"];
+
                             User client = await userInterface.findUser(clientId);
                             Freelancer freelancer = await freelancerInterface.findFreelancer(freelancerID);
                             Gig gig = await gigInterface.GetGig(gigId);
-                            return new Order(orderId, client, gig, freelancer, orderDate, dueDate, status, coinAmount, completionDate);
+                            GigPackage gigPackage = await gigPackageSL.GetGigPackage(gigpackageId);
+                            return new Order(orderId, client, gig,gigPackage, freelancer, orderDate, dueDate, status, coinAmount, completionDate);
 
                         }
                         else
@@ -133,7 +141,7 @@ namespace skillhub.RepositeryLayer
                     sqlCommand.Parameters.AddWithValue("@freelancerId", order.freelancer.freelancerID);
                     sqlCommand.Parameters.AddWithValue("@dueDate", order.dueDate);
                     sqlCommand.Parameters.AddWithValue("@coinAmount", order.coinAmount);
-
+                    sqlCommand.Parameters.AddWithValue("@gigpackageId", order.gigPackage.gigpackageId);
                     await sqlCommand.ExecuteNonQueryAsync();
 
                     return true;

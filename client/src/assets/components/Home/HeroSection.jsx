@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { Search, ArrowRight } from "lucide-react";
 import GigList from "../shared/GigList";
 import { SearchContext } from "../Context/SearchContext";
@@ -87,6 +87,16 @@ const HeroSection = () => {
     }
   ];
 
+  const currentSlideData = carouselData.find(item => item.id === currentSlide);
+
+  useEffect(() => {
+  const interval = setInterval(() => {
+    setCurrentSlide(prev => (prev % 4) + 1);
+  }, 1000);
+
+  return () => clearInterval(interval);
+}, []);
+
   const handlePrev = () => {
     setCurrentSlide(prev => (prev - 1 + 4) % 4 || 4);
   };
@@ -95,7 +105,7 @@ const HeroSection = () => {
     setCurrentSlide(prev => (prev % 4) + 1);
   };
 
-  const currentSlideData = carouselData.find(item => item.id === currentSlide);
+  
 
   const handleSearch = () => {
     if (searchInput.trim()) {

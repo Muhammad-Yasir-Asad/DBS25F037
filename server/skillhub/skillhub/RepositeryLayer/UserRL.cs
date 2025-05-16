@@ -9,6 +9,7 @@ using skillhub.CommonLayer.Model.Users;
 using skillhub.Helpers;
 using skillhub.Interfaces.IRepositryLayer;
 using skillhub.ServiceLayer;
+using SkillHub.Security;
 
 
 namespace skillhub.RepositeryLayer

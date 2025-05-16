@@ -48,21 +48,21 @@
     const navigate = useNavigate();
 
   
-    useEffect(() => {
-      const token = localStorage.getItem('auth-token');
-  if (token) {
-    try {
-      const decoded = jwtDecode(token);
-      console.log('Decoded Token:', decoded); // For debugging
-      if (decoded?.nameid) {
-        setUserId(decoded.nameid);
-      } else {
-        console.warn('User ID not found in token');
+      useEffect(() => {
+        const token = localStorage.getItem('auth-token');
+    if (token) {
+      try {
+        const decoded = jwtDecode(token);
+        console.log('Decoded Token:', decoded); // For debugging
+        if (decoded?.nameid) {
+          setUserId(decoded.nameid);
+        } else {
+          console.warn('User ID not found in token');
+        }
+      } catch (error) {
+        console.error('Error decoding token:', error);
       }
-    } catch (error) {
-      console.error('Error decoding token:', error);
     }
-  }
 
     }, []);
 

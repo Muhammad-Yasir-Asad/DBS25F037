@@ -2,11 +2,17 @@ import React, { useState } from "react";
 import { Menu, Search, X, Briefcase, Home, MessageSquare, Bell, User } from "lucide-react";
 import AuthForm from "../Home/AuthForm";
 import ModeSwitch from "../shared/ModeSwitch";
+import { useNavigate } from "react-router-dom";
 
 const FreelancerNavbar = () => {
   const [isLogin, setIsLogin] = useState(true);
   const [formOpen, setFormOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const navigate = useNavigate();
+
+  const handleChat = () => {
+    navigate("/freelancer/chat");
+  };
 
   const toggleForm = () => {
     setFormOpen(!formOpen);
@@ -28,7 +34,7 @@ const FreelancerNavbar = () => {
             <li className="hover:text-green-600 cursor-pointer flex items-center gap-1">
               <Briefcase size={16} /> Find Freelancers
             </li>
-            <li className="hover:text-green-600 cursor-pointer flex items-center gap-1">
+            <li className="hover:text-green-600 cursor-pointer flex items-center gap-1" onClick={handleChat}>
               <MessageSquare size={16} /> Messages
             </li>
             <li className="hover:text-green-600 cursor-pointer flex items-center gap-1">

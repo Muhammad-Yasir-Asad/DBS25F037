@@ -21,8 +21,8 @@ namespace skillhub.Controllers
             try
             {
                 var response = await orderInterface.MakeOrder(request);
-
                 return Ok(new { message = "Order made successfully", data = response });
+                
             }
             catch (Exception ex)
             {
@@ -50,7 +50,7 @@ namespace skillhub.Controllers
             {
                 var response = await orderInterface.deleteOrder(orderid);
 
-                return Ok(new { message = "Order fetched successfully", data = response });
+                return Ok(new { message = "Order deleted successfully", data = response });
             }
             catch (Exception ex)
             {
@@ -64,7 +64,7 @@ namespace skillhub.Controllers
             {
                 var response = await orderInterface.updateOrder(orderId, status);
 
-                return Ok(new { message = "Order fetched successfully", data = response });
+                return Ok(new { message = "Order updated successfully", data = response });
             }
             catch (Exception ex)
             {

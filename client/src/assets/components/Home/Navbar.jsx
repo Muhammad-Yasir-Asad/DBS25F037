@@ -1,16 +1,33 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { Menu, Search, X } from "lucide-react";
 import AuthForm from "./AuthForm";
+import { useNavigate } from "react-router-dom";
+import { SearchContext } from "../Context/SearchContext";
 
 const Navbar = () => {
   const [isLogin, setIsLogin] = useState(true);
   const [formOpen, setFormOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+    const { fetchGigs } = useContext(SearchContext);
+     const navigate = useNavigate();
+        const [searchInput, setSearchInput] = useState("");
 
   const toggleForm = () => {
     setFormOpen(!formOpen);
     setMenuOpen(false);
   };
+
+   const handleKeyPress = (e) => {
+    if (e.key === "Enter") handleSearch();
+  };
+
+    const handleSearch = () => {
+      if (searchInput.trim()) {
+        fetchGigs(searchInput);
+        navigate(`/search-results?query=${encodeURIComponent(searchInput)}`);
+      }
+    };
+
 
   return (
     <>
@@ -32,11 +49,14 @@ const Navbar = () => {
             <div className="w-full h-[40px] border border-gray-300 rounded-md overflow-hidden flex">
               <input
                 type="text"
+                value={searchInput}
+      onChange={(e) => setSearchInput(e.target.value)}
+      onKeyDown={handleKeyPress}
                 placeholder="Search..."
                 className="w-full h-full text-sm px-3 outline-none"
               />
               <div className="h-[60%] w-px bg-gray-300 my-auto" />
-              <button className="h-full px-3 py-1 flex items-center justify-center">
+              <button className="h-full px-3 py-1 flex items-center justify-center" onClick={handleSearch}> 
                 <Search className="text-gray-500 h-4 w-4" />
               </button>
             </div>

@@ -457,7 +457,7 @@ const GigCreationForm = () => {
     gigFormData.append('gigvideo', formData.videoFile);
 
     const gigRes = await axios.post(
-      'https://localhost:7067/api/Gig/add_Freelancer_Gig',
+      'https://skillhub.runasp.net/api/Gig/add_Freelancer_Gig',
       gigFormData,
       {
         headers: {

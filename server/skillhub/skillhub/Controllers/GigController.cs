@@ -70,6 +70,21 @@ namespace skillhub.Controllers
 
 
         }
+        [HttpGet("FindGig")]
+        public async Task<IActionResult> FindGid(int id)
+        {
+            try
+            {
+                var result = await gig.GetGig(id);
+                return Ok(new { message = "Gig Retrived successfully", data = result });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+
+        }
     }
 }
 

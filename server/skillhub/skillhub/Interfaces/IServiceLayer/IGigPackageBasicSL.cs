@@ -6,6 +6,8 @@ namespace skillhub.Interfaces.IServiceLayer
     {
         Task<int> AddGigPackage(GigPackageRequest gigPackage); 
         Task<bool> UpdateGigPackage(GigPackageRequest gigPackage, int id);
+        public Task<GigPackage> GetGigPackage(int id);
+
 
     }
 
